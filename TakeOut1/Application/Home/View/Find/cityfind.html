@@ -1,0 +1,22 @@
+<!--    /*主要部分 菜品列表* /-->
+<div class="indexmain">
+    <table width="100%" border="0" cellspacing="0" class="indexmain_1">
+        <volist name="menu" id="v" key="k" empty="$empty">
+            <td class="main_1" >
+                <a href="{:U('Home/Index/menuDetail',array('uid'=>$v['id']))}">
+                    <div class="main_2">
+                        <img src="__PC__{$v.image_dir}100_{$v.image}" width="100%" height="auto"/>
+                    </div>
+                    <div class="indetext">{$v.menu_name}</div>
+                </a>
+            </td>
+            <if condition="$k eq $n*3">
+                </tr>
+                <php>
+                    $n++;
+                </php>
+            </if>
+
+        </volist>
+    </table>
+</div>

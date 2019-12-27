@@ -1,0 +1,258 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="__PUBLIC__css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="__PUBLIC__js/jQuery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/layer_mobile/layer.js"></script>
+<title>购物车</title>
+    <style type="text/css">
+        .bbb:last-child{
+            margin-bottom:50px;
+        }
+    </style>
+</head>
+<body>
+	<div class="header">
+    <table width="100%" border="0" cellspacing="0" class="header_nav">
+    	<tr>
+        	<td width="10%" class="nav_left1"><a  href='javascript:window.history.go(-1)'><</a></td>
+            <td width="80%"class="nav_title">我的购物车</td>
+            <td width="10%" class="nav_r"></td>
+        </tr>
+    </table>
+    </div>
+    <div class="bodymain">
+        <volist name="cart" id="v" key="k" empty="购物车没有菜品">
+    	    <div class="bbb">
+                    <!--购物车商品详情-->
+                    <table width="95%" border="0" cellpadding="0">
+                        <tr>
+                            <td rowspan="2">
+                                <input href="{:U('Home/Block/menuCartActive',array('uid'=>$v[uid],'active'=>$v[active]))}" type="checkbox" name="chk[]" value='{$v.id}' {$v[active]==1?'checked':''} />
+                            </td>
+                            <td rowspan="2" class="shop_pic">
+                                <img src="__PC__{$v.image_dir}{$v.image}" width="100%" height="auto"/>
+                            </td>
+                            <td class="ddd">{$v.menu_name}</td>
+                        </tr>
+                        <tr>
+                            <td class="ddd">{$v.key_words}</td>
+                        </tr>
+                    </table>
+                    <!--购物车商品 数量 价钱-->
+                    <table width="95%" border="0" cellpadding="0" class="shop_text">
+                        <tr>
+                            <td class="d3">
+                                <input  id="min"   href="{:U('Home/Block/menuCartMin',array('uid'=>$v[uid]))}" style="width:21px; height:21px;border:0px solid #ccc;" type="button" value="-" />
+                                <input  id="price" href="{:U('Home/Block/menuCartAssign',array('uid'=>$v[uid]))}" name="buynum" type="text" value="{$v.buynum}" style=" width:20px;height:20px; text-align:center; border:1px solid #ccc;" />
+                                <input  id="add"   href="{:U('Home/Block/menuCartAdd',array('uid'=>$v[uid]))}" type="button" value="+" style="width:21px; height:21px;border:0px solid #ccc;"/>
+                            </td>
+                            <td class="d3">
+                                <div style="text-decoration:line-through;">原价:<i>￥{$v.or_price}元</i></div>
+                                <div>现价:<i>￥<span>{$v.price}</span>元</i></div>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--购物车商品操作-->
+                    <table width="100%" border="0" cellpadding="0">
+                        <tr>
+                            <td class="d2">
+                                <a href="{:U('Home/Block/deleteCart',array('uid'=>$v[uid]))}" class="deleteCart">删除</a>
+                            </td>
+                        </tr>
+                    </table>
+    	    </div>
+        </volist>
+    </div>
+    <div class="js">
+    <div class="jss"></div>
+        <!--购物车商品总价钱-->
+    	<table width="100%" border="0" cellpadding="0" style=" ">
+        	<tr>
+            	<td class="d3"><input id="checkAll" class="allselect" type='checkbox'>全选</td>
+                <td class="d3" style="text-align:left; padding-left:10px;">合计：<span>￥<span id="zong1">199.00</span></span>（不含运费）</td>
+                <td class="jj">
+                    <input type="button" href="#" id="jz1" value="结算" class="jsjs" />
+                    <input type="button" id="jz2" disabled="disabled" value="结算" class="jsjs" style="background-color:#666666;"/>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+   	<!--/*底下导航*/-->
+    <table width="100%" border="0" cellspacing="0" class="nav">
+        <tr>
+            <td width="25" class="foot"><a href="{:U('Home/Index/index')}"><img src="/Public/img/1.png" width="30%" height="auto"/><span><p>外卖</p></span></a></td>
+            <td width="25" class="foot"><a href="{:U('Home/Category/index')}"><img src="/Public/img/22.png" width="30%" height="auto"/><p>分类</p></a></td>
+            <td width="25" class="foot"><a href="{:U('Home/Block/ShoPP')}"><img src="/Public/img/33.png" width="30%" height="auto"/><p>购物车</p></a></td>
+            <td width="25" class="foot"><a href="{:U('Member/Member/index')}"><img src="/Public/img/44.png" width="30%" height="auto"/><p>我的</p></a></td>
+        </tr>
+    </table>
+    <div class="kb"></div> 
+</body>
+<script>
+    //全选全不选 更改全部商品状态
+    $('#checkAll').click(function(){
+        //发送请求更改购物车数据
+        allActive = '';
+        me = $(this);
+        //判断状态
+        if( Boolean($(this).attr('checked') ) ){
+            allActive = 1;
+        }else{
+            allActive = 2;
+        }
+        $.get("{:U('Home/Block/menuCartAll')}"+'?active='+allActive,'',function(data){
+            if( data.stats === 'ok'){
+                input=$("input[name='chk[]']")
+                //成功更改页面的选项
+                input.attr('checked',Boolean(me.attr('checked'))).attr('href',input.attr('href').replace(/(1|2){1}$/,allActive ));
+                active();
+            }else{
+                //不成功更改自己
+                me.attr('checked', ! Boolean( me.attr('checked') ))
+            }
+        });
+
+    });
+    //开局全选判定
+    $('.allselect').attr('checked', ! $("input[ name='chk[]' ]:not(:checked)").length );
+    //单选    更改单个商品状态
+    $("input[ name='chk[]' ]").click(function(){
+        //单选影响全选
+        $('#checkAll').attr('checked', ! $("input[ name='chk[]' ]:not(:checked)").length );
+        //更改商品状态
+        me = $(this);
+        $.get(me.attr('href'), '' , function(data){
+            if(data.stats === 'ok'){
+                me.attr('href',data.url)
+            }else{
+                me.attr('checked', ! Boolean( me.attr('checked') ) )
+            }
+        });
+        active();
+    });
+    //结算按钮的禁用
+    function active(){
+        if( $( 'input[ name="chk[]" ]:checked').length ){
+            //启用
+            $("#jz1").show();
+            $("#jz2").css('display','none');
+        }else{
+            //禁用
+            $("#jz1").css('display','none');
+            $("#jz2").show();
+        }
+        allPrice()
+    }
+    active();
+    //结算购物车总价
+    function allPrice(){
+        var subtotal = 0 ; //小计
+        var all_price = 0; // 总价
+        var all_num = 0 ; //总数
+        var price = 0; //单价
+        var num = 0; //数量
+        var table = $('.bbb');
+        // console.log(table);
+        for( var i=0 ; i<table.length ; i++ ){
+            num = table.eq(i).find("input").eq(2).val();
+            price = table.eq(i).find('span').text();
+            subtotal = num*price;  //小计
+            //将小计价格写入文档中
+            // table.eq(i).find('.subtotal').text(subtotal);
+            //判断商品是否被选择(被选中将加入总价)
+            if(table.eq(i).find('[ name="chk[]" ]').attr('checked')){
+                all_price += subtotal; //总计
+                all_num += parseInt(num) ;
+            }
+          // console.log(num)
+          // console.log(price)
+          // console.log(subtotal)
+          // console.log(all_price)
+            //没有条件创造条件---改Html
+        }
+        //将总计价格和总数写入页面
+        $("#zong1").text(all_price);
+        // $("#shuliang").text(all_num);
+    }
+
+
+    //加的处理
+    $('input[id="add"]').click(function(){
+        me = $(this)
+        if(me.prev().val() > 0){
+            $.get(me.attr('href'),'',function(data){
+                if(data.stats === 'ok'){
+                    me.prev().val( parseInt( me.prev().val() )+1 )
+                    allPrice();
+                }
+            });
+        }
+    });
+    //减的处理
+    $('input[id="min"]').click(function(){
+        me = $(this);
+        if(me.next().val() > 1) {
+            $.get(me.attr('href'), '', function (data) {
+                if (data.stats === 'ok') {
+                    me.next().val(me.next().val() - 1)
+                    allPrice()
+                }
+            })
+        }
+    });
+    //直接修改商品的个数
+    $('input[id="price"]').blur(function() {
+        me = $(this);
+        if (isNaN(parseInt(me.val()))) {
+            num = 1;
+            me.val(1);
+        } else if (parseInt(me.val()) > 99) {
+            num = 99;
+            me.val(num);
+        }else if(parseInt(me.val()) < 1){
+            num = 1;
+            me.val(num);
+        }else{
+            num = parseInt(me.val());
+            me.val(num);
+        }
+        $.get(me.attr("href")+'?num='+num,'' , function(data){
+            if(data.stats === 'ok'){
+                allPrice();
+            }else{
+                me.val(1);
+            }
+        })
+        // console.log(me.attr('href')+'/'+num);
+    });
+
+    //删除购物车的商品
+    $('.deleteCart').click(function(){
+        me = $(this);
+        layer.open({
+            content: '您确定要删除此商品吗？'
+            ,btn: ['删除', '取消']
+            ,yes: function(index){
+                $.get(me.attr('href'), '' , function(data){
+                    if(data.stats === 'ok' ){
+                        me.parent($('div[class="bbb"]')).remove();
+                        layer.msg('删除成功');
+                    }else{
+                        layer.msg('删除失败');
+                    }
+                });
+                location.reload();
+                layer.close(index);
+            }
+        });
+        return false;
+    });
+</script>
+</html>

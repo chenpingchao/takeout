@@ -1,0 +1,154 @@
+
+.footer{
+	position: fixed;
+	bottom:0px;	
+	height: 60px;
+	padding: 20px 0;
+}
+
+.header .logoBar .logo{
+	width: 200px;
+	padding-right: 20px;
+}
+.reg{
+	height: 100px;
+	font:24px/100px'微软雅黑';
+	color:#ccc;
+
+}
+.reg span{
+	padding-left: 20px;
+	color:#333;
+}
+.headLine{
+	width:100%;
+	height: 3px;
+	background: #f00;
+	border: 0px;
+	
+}
+.regArea{
+	width: 1000px;
+	height:450px;
+	margin:20px auto;
+	padding:30px 50px;
+	border-radius: 5px;
+}
+
+.regLeft img{
+	border:0;
+	width:530px;
+	height:320px;
+}
+.regRight{
+	width: 330px;
+	height:410px;
+	background-color:#ddd;
+	border: 5px solid #ccc;
+	border-radius: 5px;
+	padding: 15px;
+	font-size:16px;
+	color:#333;
+}
+.regRight table{
+	width: 350px;
+}
+
+.regRight table td{
+   position: relative;
+   height: 60px;
+   line-height: 60px;
+}
+
+.regRight table td div{
+	/*position: absolute;
+	top:30px;
+	left:0;
+	font-size: 12px;
+	font-weight: bold;
+	display: none;*/
+}
+.regRight table td:nth-child(odd){
+	text-align: right;
+}
+.regRight table td input{
+    padding:5px;
+    margin:0;
+	width:200px;
+	height: 20px;
+	line-height: 30px;
+	vertical-align: middle;
+	border:1px solid #eee;
+}
+
+.regRight table td input.yzm{
+	width: 80px;
+	margin-right:-5px; 
+}
+
+.yzmImg{
+	height:30px;
+	width: 120px;
+	vertical-align: middle;
+	border:1px solid #eee;
+	border-left:0px;
+    cursor:pointer;
+}
+
+.yzmImg,.yzmBtn{
+    height:30px;
+    width: 120px;
+    vertical-align: middle;
+    border:1px solid #eee;
+    border-left:0px;
+    cursor:pointer;
+}
+.yzmBtn{
+    border:1px solid #ccc;
+    background-color: #ccc;
+}
+#protocol td{
+	font-size:12px;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+}
+#protocol input{
+	width: 5px;
+}
+#loginTd{
+	text-align: center;
+}
+.loginBtn{
+	display: inline-block;
+	width:100px;
+	height: 30px;
+	line-height: 30px;
+	padding: 5px 90px;
+	background: #b00;
+	border-radius: 5px;
+	letter-spacing: 1em;
+	color:#fff;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+}
+.loginBtn:hover{
+    background:#e00;
+    color:#fff; 
+}
+
+#tologin{
+	height:15px;
+	line-height: 15px;
+	text-align: center;
+	font-size:12px;
+}
+
+#tologin span{
+	margin:0 5px;
+}
+#tologin span a{
+	color:#0081ef;
+}

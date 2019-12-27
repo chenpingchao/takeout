@@ -1,0 +1,7 @@
+div.page_div span{
+    font-weight:bold;
+}
+
+div ul.pagination{
+   float: right;
+}

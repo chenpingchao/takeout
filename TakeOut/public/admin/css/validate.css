@@ -1,0 +1,26 @@
+ul.validate-error{
+    width:70%;
+    margin:3px;
+    padding:5px;
+    background-color: #fdd;
+    border:1px solid #fbb;
+    border-radius:5px;
+    color:#f44;
+}
+
+ul.validate-error li{
+    padding-left:10px;
+    line-height: 10px;
+    font-weight: bold;
+    background:url(/admin/images/error.png) no-repeat 0 10px;
+}
+
+div.validate-error{
+    position:relative;
+    left:10px;
+    padding-left:10px;
+    line-height: 10px;
+    font-weight: bold;
+    color:#f44;
+    background:url(/admin/images/error.png) no-repeat 0 10px;
+}

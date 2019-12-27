@@ -1,0 +1,1082 @@
+[ 2019-11-14T08:38:46+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: DELETE FROM `admin` WHERE ( id>10 ) [ RunTime:0.1420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T08:41:33+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692093') [ RunTime:0.0180s ]
+ERR: 1062:Duplicate entry '255' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692093')
+ERR: 1062:Duplicate entry '255' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692093')
+
+[ 2019-11-14T08:43:06+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '255' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692186')
+ERR: 1062:Duplicate entry '255' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692186')
+
+[ 2019-11-14T08:45:43+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692343') [ RunTime:0.0000s ]
+ERR: 1062:Duplicate entry 'ksadfhjhgjlghjjksagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692343')
+ERR: 1062:Duplicate entry 'ksadfhjhgjlghjjksagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('ksadfhjhgjlghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692343')
+
+[ 2019-11-14T08:46:01+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('1lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('2lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('3lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('4lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('5lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('6lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('7lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('8lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('9lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('10lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('11lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('12lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('13lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('14lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('15lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('16lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('17lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('18lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('19lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('20lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('21lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('22lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('23lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('24lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('25lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('26lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('27lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('28lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('29lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('30lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('31lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('32lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('33lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('34lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('35lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('36lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('37lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('38lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('39lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('40lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('41lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('42lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('43lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('44lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('45lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('46lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('47lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('48lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('49lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('50lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('51lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('52lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('53lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('54lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('55lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('56lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('57lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('58lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('59lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('60lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('61lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('62lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('63lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('64lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('65lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('66lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('67lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('68lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('69lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('70lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('71lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('72lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('73lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('74lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('75lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('76lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('77lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('78lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('79lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('80lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('81lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('82lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('83lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('84lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('85lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('86lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('87lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('88lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('89lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('90lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('91lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('92lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('93lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('94lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('95lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('96lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('97lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('98lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('99lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('100lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('101lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('102lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('103lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('104lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('105lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('106lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('107lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('108lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('109lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('110lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('111lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('112lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('113lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('114lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('115lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('116lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('117lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('118lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('119lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('120lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('121lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('122lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('123lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('124lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('125lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('126lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('127lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('128lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('129lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('130lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('131lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('132lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('133lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('134lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('135lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('136lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('137lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('138lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('139lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('140lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('141lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('142lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('143lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('144lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('145lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('146lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('147lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('148lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('149lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('150lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('151lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('152lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('153lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('154lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('155lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('156lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('157lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('158lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('159lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('160lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('161lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('162lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('163lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('164lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('165lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('166lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('167lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('168lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('169lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('170lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('171lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('172lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('173lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('174lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('175lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('176lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('177lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('178lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('179lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('180lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('181lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('182lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('183lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('184lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('185lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('186lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('187lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('188lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('189lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('190lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('191lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('192lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('193lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('194lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('195lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('196lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('197lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('198lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('199lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('200lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('201lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('202lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('203lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('204lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('205lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('206lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('207lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('208lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('209lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('210lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('211lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('212lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('213lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('214lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('215lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('216lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('217lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('218lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('219lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('220lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('221lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('222lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('223lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('224lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('225lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('226lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('227lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('228lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('229lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('230lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('231lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('232lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('233lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('234lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('235lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('236lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('237lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('238lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('239lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('240lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('241lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('242lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('243lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('244lghjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692361') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T08:46:20+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('1hjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692380') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('2hjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692380') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('3hjjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692380') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T08:46:44+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjdjksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692404') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T08:46:55+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692415') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T08:47:08+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry 'hjdjfksagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692428')
+ERR: 1062:Duplicate entry 'hjdjfksagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692428')
+
+[ 2019-11-14T08:47:25+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('1hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692445') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('2hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692445') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('3hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692445') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('4hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692445') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T08:47:32+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+ERR: 1062:Duplicate entry '1hjdjfksagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('1hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692452')
+ERR: 1062:Duplicate entry '1hjdjfksagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('1hjdjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692452')
+
+[ 2019-11-14T08:47:56+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0070s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjfksagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692476') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-14T08:48:03+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+ERR: 1062:Duplicate entry '255' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692483')
+ERR: 1062:Duplicate entry '255' for key 'PRIMARY'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692483')
+
+[ 2019-11-14T08:50:13+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692613') [ RunTime:0.0010s ]
+ERR: 1062:Duplicate entry 'hjfsagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692613')
+ERR: 1062:Duplicate entry 'hjfsagh' for key 'username'
+ [ SQL语句 ] : INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692613')
+
+[ 2019-11-14T08:50:23+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('1hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('2hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('3hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('4hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('5hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('6hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('7hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('8hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0010s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('9hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+SQL: INSERT INTO `admin` (`username`,`password`,`add_time`) VALUES ('10hjfsagh','6c14da109e294d1e8155be8aa4b1ce8e','1573692623') [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-14T08:53:05+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+ERR: Think\Model:update方法不存在！
+
+[ 2019-11-14T08:53:29+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T08:54:10+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+SQL: UPDATE `admin` SET `password`='12323' WHERE ( id=10 ) [ RunTime:0.1200s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T08:55:28+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+SQL: UPDATE `admin` SET `password`='1123123' WHERE ( id=1 ) [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T08:56:33+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T08:57:11+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `admin` WHERE ( id=1 )  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T09:00:48+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+SQL: SELECT `username`,`password`,`add_time` FROM `admin` WHERE ( id>5 ) ORDER BY `add_time` DESC LIMIT 3,5   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T09:14:36+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2019-11-14T09:14:47+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+ERR: Method name must be a string
+
+[ 2019-11-14T09:16:17+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0030s ]
+ERR: Method name must be a string
+
+[ 2019-11-14T09:17:49+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0060s ]
+ERR: Method name must be a string
+
+[ 2019-11-14T09:17:51+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+ERR: Method name must be a string
+
+[ 2019-11-14T09:18:07+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+ERR: Method name must be a string
+
+[ 2019-11-14T09:18:11+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T09:18:47+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T09:18:48+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T09:18:48+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T09:18:48+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T09:19:17+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-14T09:19:18+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T09:19:18+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-14T09:19:18+08:00 ] ::1 /tp3/Study/Test/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `admin` [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2019-11-14T09:32:33+08:00 ] ::1 /tp3/Study/Test/test
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.cid=c.id JOIN category as c  WHERE ( active=1 )' at line 1
+ [ SQL语句 ] : SELECT `goodsname`,`catename`,`price` FROM goods g g.cid=c.id JOIN category as c  WHERE ( active=1 ) 
+
+[ 2019-11-14T09:32:52+08:00 ] ::1 /tp3/Study/Test/test
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.cid=c.id JOIN category as c  WHERE ( g.active=1 )' at line 1
+ [ SQL语句 ] : SELECT `goodsname`,`catename`,`price` FROM goods g g.cid=c.id JOIN category as c  WHERE ( g.active=1 ) 
+
+[ 2019-11-14T09:32:53+08:00 ] ::1 /tp3/Study/Test/test
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.cid=c.id JOIN category as c  WHERE ( g.active=1 )' at line 1
+ [ SQL语句 ] : SELECT `goodsname`,`catename`,`price` FROM goods g g.cid=c.id JOIN category as c  WHERE ( g.active=1 ) 
+
+[ 2019-11-14T09:33:26+08:00 ] ::1 /tp3/Study/Test/test
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'g.cid=c.id JOIN category as c  WHERE ( g.active=1 )' at line 1
+ [ SQL语句 ] : SELECT `goodsname`,`catename`,`price` FROM goods g g.cid=c.id JOIN category as c  WHERE ( g.active=1 ) 
+
+[ 2019-11-14T10:00:41+08:00 ] ::1 /tp3/Study/Test/test
+ERR: Call to undefined function defauly()
+
+[ 2019-11-14T10:36:41+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:36:58+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:37:00+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:37:22+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:37:29+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:37:52+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:40:42+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T10:42:18+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected ')', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T11:02:36+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: syntax error, unexpected '<', expecting variable (T_VARIABLE) or '{' or '$'
+
+[ 2019-11-14T11:05:28+08:00 ] ::1 /tp3/Study/Test/test/id/12
+ERR: 无法加载控制器:Test
+

@@ -1,0 +1,29 @@
+.preview-input{
+    display: none;
+}
+.preview-div{
+    position: relative;
+    float:left;
+    width:190px;
+    height:190px;
+    border:1px solid #ddd;
+    text-align: center;
+}
+.preview-div .preview-label{
+    display: inline-block;
+    width:190px;
+    height: 44px;
+    border-radius: 4px;
+    line-height: 44px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background:#999;
+    font-size:18px;
+    color:#fff;
+    cursor: pointer;
+
+}
+.preview-div .preview-label:hover{
+    background:#777;
+}

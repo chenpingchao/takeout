@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="__PUBLIC__css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="__PUBLIC__js/jQuery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/layer_mobile/layer.js"></script>
+
+<title>产品详情</title>
+    <style>
+        .bg {
+            background: url("https://img-bbs.csdn.net/upload/201510/22/1445523252_651795.png");
+            width: 93px;
+            height: 16px;
+        }
+        .bg div {
+            background: url("https://img-bbs.csdn.net/upload/201510/22/1445523260_910443.png");
+            height: 100%;
+        }
+    </style>
+
+
+</head>
+
+<body>
+	<div class="header">
+    <table width="100%" border="0" cellspacing="0" class="header_nav">
+    	<tr>
+        	<td width="10%" class="nav_left1"><a  href='javascript:window.history.go(-1)'><</a></td>
+            <td width="80%"class="nav_title">产品详情</td>
+            <td width="10%" class="nav_r"></td>
+        </tr>
+    </table>
+    </div>
+    <!--/*主要部分*/-->
+    <php>$image = $menu['image']?"__PC__".$menu['image_dir']."320_".$menu['image'] : '\Public\img\default1.jpg'</php>
+    <div class="bodymain">
+    	<div><img src="{$image}" width="100%" height="253"/></div>
+        <div class="cp" >
+                <div class="cp_left">
+            	<div><h3>{$menu.menu_name}</h3></div>
+
+            </div>
+            <div class="cp_right">{$menu.price}</div>
+        </div>
+        <div class="dz">
+        <div class="dz_left">
+            <div><h5>外卖电话：{$shop.shop_mobile}</h5></div>
+            <div>{$shop.site}</div>
+            <div>外卖时间：08:00-23:00</div>
+        </div>
+        <div class="dz_right"><img src="__PUBLIC__img/bd.png" width="70%" height="auto" /></div>
+    </div>
+
+		<div class="btn">
+            <table width="100%" border="0" cellspacing="0">
+                <tr>
+                    <td class="btn1"><a href="javascript:add_cart();"><input type="button" value="加入购物车" class="btn2"></a></td>
+                    <td class="btn1"><a href="javascript:buy();"><input type="button" value="立即购买" class="btn3"></a></td>
+            </table>
+        </div>
+        <div class="nr" style="width:320px;margin:0 auto;"></div>
+        <div class="btnn">
+            <table width="100%" border="0" cellspacing="0">
+                <tr>
+                    <td class="bt"><input type="button" value="产品详情" class="b"></td>
+                    <td class="bt"><a href="#evaluate"><input type="button" value="产品评价" class="bb"></a></td>
+            </table>
+        </div>
+     
+     <div><!--产品详情-->
+        <div class="pic">{$menu.detail}</div>
+    </div>
+        <a id="evaluate"></a>
+    <div class="pl"><!--产品评价-->
+        <input type="button" value="产品评价" class="b">
+        <volist name="evaluate" id="v" key="k" empty="暂时没有评论">
+    	<div class="pll">
+        	<div class="pl_1" ><h4>{$v.username}</h4></div>
+            <a href="javascript:highlightStar('{$v.fenshu}');"></a>
+            <php>$fenshu = ($v['fenshu']/5)*100</php>
+            <div class="pl_2">满意：<div class="bg" style="display:inline-block;"><div style="width:{$fenshu}%;"></div></div>
+                <span>| {$v.add_time}</span></div>
+            <div class="pl_3">{$v.detail}</div>
+            <div class="pl_pic">
+
+            </div>
+        </div>
+        </volist>
+    </div>
+    </div>
+    <div class="kb"></div>
+</body>
+<script>
+    //添加购物车
+    function add_cart(){
+        if(!"{:session('?mid')}"){
+            location = "(:U('Home/Login/login'))";
+        }
+        $.post('{:U("Block/addCart",array("uid"=> $menu["id"] ))}','',function(data){
+            if(data.status ==='ok'){
+                layer.open({
+                    title: [
+                        '询问',
+                        'background-color:#ff8000; color:#fff;'
+                    ]
+                    ,anim: 'up'
+                    ,content: '是否去购物车'
+                    ,btn: ['去购物车', '留在本页面']
+                    ,yes:function () {
+                        location = '';
+                    }
+                });
+            }else{
+                layer.open({
+                    style: 'border:none; background-color:#ff8000; color:#fff;',
+                    content:'购物车添加失败',
+                    time:2
+                })
+            }
+        })
+    }
+
+    //评价星级
+       
+    function highlightStar(num) {
+        num1 = parseInt(num);
+        var starBg = document.getElementById("starContainer");
+        var stars = starBg.getElementsByTagName("a");
+        for ( i = 0; i < num1 ; i++) {
+            stars[i].className = 'highlight';
+        }
+    }
+
+    // 直接下单
+    function buy(){
+        location = '{:U("Home/Block/buy",array("uid"=>$menu["id"]))}';
+    }
+
+
+</script>
+</html>

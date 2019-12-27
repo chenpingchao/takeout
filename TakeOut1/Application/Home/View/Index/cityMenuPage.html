@@ -1,0 +1,108 @@
+{/*<!--    /*主要部分 菜品列表* /-->
+<!--<div class="indexmain">
+    <div class="menu">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;热卖菜品 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="">></a>
+    </div>
+    <table width="100%" border="0" cellspacing="0" class="indexmain_1">
+        <volist name="menu" id="v" key="k" empty="$empty_menu">
+            <td class="main_1"><a href="take-out.html">
+                <div class="main_2"><img src="__PC__{$v.image_dir}100_{$v.image}" width="100%" height="auto"/></div>
+                <div class="indetext">{$v.menu_name}</div></a>
+            </td>
+            <if condition="$k eq $n*3">
+                </tr>
+                <php>
+                    $n++;
+                </php>
+            </if>
+
+        </volist>
+
+    </table>
+</div>
+&lt;!&ndash;商店部分&ndash;&gt;
+<div id="activity" class="indexmain">
+    <div class="title">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;火热店铺 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="">></a>
+    </div>
+    <table width="100%" border="0" cellspacing="0" class="indexmain_1">
+        <volist name="shop" id="v" key="k" empty="$empty_shop">
+            <td class="main_1"><a href="take-out.html">
+                <div class="main_2"><img src="__SHOP__{$v.logo}" width="100%" height="auto"/></div>
+                <div class="indetext">{$v.shop_name}</div></a>
+            </td>
+            <if condition="$k eq $m*3">
+                </tr>
+                <php>
+                    $m++;
+                </php>
+            </if>
+
+        </volist>
+    </table>
+    <div style="clear:both;height:52px;">
+    </div>
+
+
+</div>-->
+*/}
+
+<!--    /*主要部分 菜品列表* /-->
+<div class="indexmain">
+    <div class="menu">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;热卖菜品 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="{:U('Home/index/menu_list')}">></a>
+    </div>
+    <table width="100%" border="0" cellspacing="0" class="indexmain_1">
+        <volist name="menu" id="v" key="k" empty="empty">
+            <td class="main_1" >
+                <a href="{:U('Home/Index/menuDetail',array('uid'=>$v['id']))}">
+                    <div class="main_2">
+                        <img src="__PC__{$v.image_dir}100_{$v.image}" width="100%" height="auto"/>
+                    </div>
+                    <div class="indetext">{$v.menu_name}</div>
+                </a>
+            </td>
+            <if condition="$k eq $n*3">
+                </tr>
+                <php>
+                    $n++;
+                </php>
+            </if>
+
+        </volist>
+
+    </table>
+</div>
+
+{/*商店部分*/}
+<div id="activity" class="indexmain">
+    <div class="title">
+        &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;火热店铺 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+        <a href="{:U('Home/index/shop_list')}">></a>
+    </div>
+    <table width="100%" border="0" cellspacing="0" class="indexmain_1">
+        <volist name="shop" id="v" key="k" empty="empty">
+            <td class="main_1">
+                <a href="{:U('Home/Shop/takeout',array('id'=>$v['id']))}">
+                    <!--tp模板引擎认识$v.id 但PHP不认识解析不了&#45;&#45;$v['id']-->
+                    <div class="main_2">
+                        <img src="__SHOP__{$v.logo}" width="100%" height="auto"/>
+                    </div>
+                    <div class="indetext">{$v.shop_name}</div>
+                </a>
+            </td>
+            <if condition="$k eq $m*3">
+                </tr>
+                <php>
+                    $m++;
+                </php>
+            </if>
+
+        </volist>
+    </table>
+    <div style="clear:both;height:52px;">
+    </div>
+</div>

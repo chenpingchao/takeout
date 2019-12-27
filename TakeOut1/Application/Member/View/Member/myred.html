@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="/public/css/css.css" rel="stylesheet" />
+<title>我的红包</title>
+<style>
+    ul,li{
+        list-style-type: none;
+    }
+    .redpacket{
+        border: 1px solid #ccc;
+
+    }
+    .redpacket .myred{
+        color: #f0ad4e;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .redpacket ul{
+        width: 95%;
+        height: auto;
+        color: #fff;
+        background: #ffc160;
+        border-radius: 10px;
+        padding: 8px;
+        float: left;
+        margin: 8px 2px;
+    }
+    ul.disable{
+        width: 95%;
+        height: auto;
+        background: #ccc;
+        color: #fff;
+        border-radius: 10px;
+        padding: 8px;
+        float: left;
+        margin: 8px 2px;
+    }
+    .font40{
+        font-size: 40px;
+    }
+    .font14{
+        font-size: 16px;
+    }
+</style>
+</head>
+<body>
+    <div class="header">
+        <table width="100%" border="0" cellspacing="0" class="header_nav">
+            <tr>
+                <td width="10%" class="nav_left1"><a  href="{:U('Member/Member/index')}"><</a></td>
+                <td width="80%"class="nav_title">我的红包</td>
+                <td width="10%" class="nav_r"></td>
+            </tr>
+        </table>
+	</div>
+    <div class="my">
+    	<div class="jk">
+        <table width="100%" border="0" cellspacing="0" class="my_name">
+            	<tr>
+                	<td class="my_main_p">当前可用积分：{$score}</td>
+                    <td class="my_mainn_pp"><span><a href="{:U('Member/Member/convert')}" >兑换</a></span></td>
+                </tr>
+            </table>	
+        </div>
+        <div class="redpacket">
+            <div class="myred">我的红包:</div>
+            <volist name="redpacket" id="v" empty="empty">
+                <ul {$v['active']==1?'':'class="disable"'}>
+                    <li>
+                        <span class="font40"><i class="font14">￥</i>{$v.value}</span>
+                        <div style="display: inline-block">
+                            <div class="font14">全站通用
+                                <if condition="($v.type eq 1)">
+                                    无门楷红包
+                                    <else />
+                                    满{$v[value]*3}减{$v.value}红包
+                                </if>
+                            </div>
+                            <div class="font14">
+                                <if condition="($v.active eq 1)">
+                                    有效期{:date('Y-m-d',$v[add_time])}至{:date('Y-m-d',$v[end_time])}
+                                    <else />
+                                    {$v[active]== 2 ? '已使用' :'已过期'}
+                                </if>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </volist>
+        </div>
+    </div>
+</body>
+</html>

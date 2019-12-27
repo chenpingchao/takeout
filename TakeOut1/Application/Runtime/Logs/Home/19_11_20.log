@@ -1,0 +1,3091 @@
+[ 2019-11-20T09:26:31+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'ihuyi_sms' not found
+
+[ 2019-11-20T09:26:42+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'ihuyi_sms' not found
+
+[ 2019-11-20T09:27:43+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: Class 'ihuyi_sms' not found
+
+[ 2019-11-20T09:28:32+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T09:33:38+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0320s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:33:51+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:33:51+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:33:52+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:33:52+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:33:53+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:03+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:04+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:06+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:06+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:34:42+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 41 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:35:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0490s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:35:51+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:35:52+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:36:41+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:36:55+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:33+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:33+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:33+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:34+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:34+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:34+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:39:43+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+NOTIC: [8192] Non-static method Think\Model::where() should not be called statically D:\xxzl\dm\takeout\TakeOut1\Application\Home\Controller\LoginController.class.php 第 42 行.
+ERR: Using $this when not in object context
+
+[ 2019-11-20T09:40:24+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:40:24+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:41:01+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:41:12+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:41:13+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:41:17+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:41:18+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:42:01+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:42:03+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:42:03+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:42:04+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:42:04+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:42:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:42:18+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:00+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:00+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:00+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:00+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:00+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:01+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:46:01+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:46:01+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:46:01+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:07+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:46:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:46:09+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:10+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:46:10+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:46:10+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:54:28+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:54:30+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:54:31+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:57:25+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.1530s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:57:29+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T09:57:34+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T09:58:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T09:58:33+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T09:58:36+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:04:52+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:04:52+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:06:50+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2019-11-20T10:06:50+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:08:31+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:08:33+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:13:44+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:14:11+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:15:07+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:15:37+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T10:15:38+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:16:37+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T10:16:38+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:16:56+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:17:59+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:18:35+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:18:38+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:18:40+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:18:50+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:18:51+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:18:55+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:19:02+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:19:10+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T10:19:11+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:21:03+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+
+[ 2019-11-20T10:21:22+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+
+[ 2019-11-20T10:21:25+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-20T10:21:29+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T10:21:30+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+
+[ 2019-11-20T10:22:12+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: arr D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Vendor\sms\sms.class.php 第 55 行.
+
+[ 2019-11-20T10:24:47+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:25:18+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:26:06+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:26:48+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:27:03+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Common\functions.php 第 1438 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Common\functions.php 第 1438 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:27:15+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-20T10:27:15+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:30:00+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Common\functions.php 第 1438 行.
+NOTIC: [8] A session had already been started - ignoring session_start() D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Common\functions.php 第 1438 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:30:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:30:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:30:05+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:30:09+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:30:11+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:30:11+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:30:11+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:30:14+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:32:43+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:32:45+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:32:45+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:11+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:12+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:37+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-20T10:33:38+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:39+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:39+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:33:50+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:50+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:33:51+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:34:39+08:00 ] 127.0.0.1 /Home/Login/mobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:34:45+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:34:46+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:34:46+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:34:47+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:35:13+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:35:13+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:37:38+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T10:38:28+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:38:52+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T10:38:55+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:38:56+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:38:56+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:38:57+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T10:38:57+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:38:58+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:38:59+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T10:55:47+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: INSERT INTO `one_member` (`username`,`password`,`mobile`) VALUES ('cpcp','202cb962ac59075b964b07152d234b70','15236430715') [ RunTime:0.0330s ]
+
+[ 2019-11-20T10:58:58+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T10:59:14+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:00:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:00:35+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:00:51+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:00:53+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:00:54+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:00:55+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:01:02+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T11:10:42+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:11:04+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:11:07+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:11:14+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:11:53+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:12:14+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:12:36+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:12:58+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:13:23+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:14:10+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:15:29+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430712 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:15:48+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0190s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430713 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:15:50+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430712 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:15:51+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430714 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:15:53+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430715 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:15:54+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430714 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:28:38+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T11:29:01+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = '15236430715' OR `mobile` = '15236430715' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T11:30:05+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T11:36:52+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:37:00+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:37:26+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:38:51+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:40:43+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:41:29+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:41:55+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:41:59+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:42:23+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:44:14+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:44:25+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:44:28+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:44:41+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0320s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:45:06+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:45:25+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:45:41+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:45:51+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:45:58+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:46:21+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T11:46:39+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T11:46:45+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T12:13:38+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T14:33:45+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0690s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T14:33:49+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T14:41:04+08:00 ] 127.0.0.1 /Home/Login/index.html
+ERR: 模板不存在:./Application/Home/View/Login/index.html
+
+[ 2019-11-20T14:53:39+08:00 ] 127.0.0.1 /Home/Index/index.html?city=%E6%B2%88%E9%98%B3%E5%B8%82
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_shop` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`logo`,`shop_name` FROM `one_shop` WHERE `site` LIKE '%沈阳市%' ORDER BY `grade` DESC LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `one_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`image_dir`,`image`,`menu_name` FROM `one_menu` WHERE `sid` IN ('') ORDER BY `salde_num` DESC LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T14:54:17+08:00 ] 127.0.0.1 /Home/Index/index.html?city=%E4%B8%8A%E6%B5%B7%E5%B8%82
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_shop` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`logo`,`shop_name` FROM `one_shop` WHERE `site` LIKE '%上海市%' ORDER BY `grade` DESC LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `one_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`image_dir`,`image`,`menu_name` FROM `one_menu` WHERE `sid` IN ('') ORDER BY `salde_num` DESC LIMIT 0,6   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T14:54:23+08:00 ] 127.0.0.1 /Home/Index/index.html?city=%E9%87%8D%E5%BA%86%E5%B8%82
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_shop` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`logo`,`shop_name` FROM `one_shop` WHERE `site` LIKE '%重庆市%' ORDER BY `grade` DESC LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `one_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`image_dir`,`image`,`menu_name` FROM `one_menu` WHERE `sid` IN ('') ORDER BY `salde_num` DESC LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T14:55:43+08:00 ] 127.0.0.1 /Home/Index/index.html?city=%E9%87%8D%E5%BA%86%E5%B8%82
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_shop` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`logo`,`shop_name` FROM `one_shop` WHERE `site` LIKE '%重庆市%' ORDER BY `grade` DESC LIMIT 0,6   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `one_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`image_dir`,`image`,`menu_name` FROM `one_menu` WHERE `sid` IN ('') ORDER BY `salde_num` DESC LIMIT 0,6   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T15:07:58+08:00 ] 127.0.0.1 /Home/Index/index.html
+ERR: syntax error, unexpected '"]); ?>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+
+[ 2019-11-20T15:09:17+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/84
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:09:37+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:36+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:37+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:37+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:37+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:37+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:37+08:00 ] 127.0.0.1 /Home/Detail/menu_detail.html/83
+ERR: 非法操作:menu_detail.html
+
+[ 2019-11-20T15:13:40+08:00 ] 127.0.0.1 /Home/Detail/menuDetail.html/83
+ERR: 非法操作:menuDetail.html
+
+[ 2019-11-20T15:13:48+08:00 ] 127.0.0.1 /Home/Detail/menuDetail.html/83
+ERR: 非法操作:menuDetail.html
+
+[ 2019-11-20T15:13:52+08:00 ] 127.0.0.1 /Home/Detail/menuDetail.html/id/83
+ERR: 非法操作:menuDetail.html
+
+[ 2019-11-20T15:16:36+08:00 ] 127.0.0.1 /Home/Index/index.html
+ERR: syntax error, unexpected '<'
+
+[ 2019-11-20T15:38:02+08:00 ] 127.0.0.1 /Home/Index/classify.html
+ERR: 非法操作:classify
+
+[ 2019-11-20T15:40:53+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/%7B%20?http://www.chpch.top/320_%20:%20%27__PUBlIC__img/%27}
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `one_menu` WHERE ( id={ ) LIMIT 1  
+
+[ 2019-11-20T15:42:14+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/%7B%20$menu['image']?http://www.chpch.top/320_%20:%20%27__PUBlIC__img/%27}
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['image'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `one_menu` WHERE ( id={ $menu['image'] ) LIMIT 1  
+
+[ 2019-11-20T15:42:17+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/%7B%20$menu['image']?http://www.chpch.top/320_%20:%20%27__PUBlIC__img/%27}
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '['image'] ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `one_menu` WHERE ( id={ $menu['image'] ) LIMIT 1  
+
+[ 2019-11-20T15:42:45+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/%7B%20?http://www.chpch.top/320_%20:%20%27__PUBlIC__img/%27}
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `one_menu` WHERE ( id={ ) LIMIT 1  
+
+[ 2019-11-20T15:42:46+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/%7B%20?http://www.chpch.top/320_%20:%20%27__PUBlIC__img/%27}
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `one_menu` WHERE ( id={ ) LIMIT 1  
+
+[ 2019-11-20T15:48:54+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/83.html
+ERR: syntax error, unexpected '?>'
+
+[ 2019-11-20T15:49:37+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/83.html
+ERR: syntax error, unexpected '?>'
+
+[ 2019-11-20T15:49:38+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/83.html
+ERR: syntax error, unexpected '?>'
+
+[ 2019-11-20T15:49:38+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/83.html
+ERR: syntax error, unexpected '?>'
+
+[ 2019-11-20T15:49:38+08:00 ] 127.0.0.1 /Home/Detail/menuDetail/id/83.html
+ERR: syntax error, unexpected '?>'
+
+[ 2019-11-20T16:46:08+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T16:48:43+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T16:48:46+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T16:48:49+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T16:50:16+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T16:50:19+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T16:51:46+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0050s ]
+
+[ 2019-11-20T16:52:03+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T16:55:51+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T16:56:31+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T16:57:37+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T16:58:34+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:01:21+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:02:09+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:06:43+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:06:53+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:06:53+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:07:21+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:07:22+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:07:48+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:08:02+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:08:47+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:08:48+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:09:49+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T17:10:02+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+ERR: 1146:Table 'one.one_member_model' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `one_member_model`
+
+[ 2019-11-20T17:10:21+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-20T17:10:59+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:11:30+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:19:31+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:19:31+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:21:34+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:22:55+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:22:57+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:23:15+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:23:26+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:16+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:17+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:33+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:33+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:24:33+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:33+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:33+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:24:34+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:24:34+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:25:03+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:25:13+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:25:47+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:31:01+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:31:16+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:32:20+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:32:38+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:32:51+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:34:16+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:34:17+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:34:17+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:34:17+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:36:58+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:38:02+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:38:21+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:38:24+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:38:24+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:39:35+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:40:00+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:40:17+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0050s ]
+
+[ 2019-11-20T17:49:05+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:49:07+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:49:45+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:53:04+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:53:33+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T17:53:51+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0220s ]
+
+[ 2019-11-20T17:56:18+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:57:54+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T17:58:10+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T18:03:34+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T18:03:43+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T18:05:26+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T18:06:04+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+
+[ 2019-11-20T18:06:08+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+
+[ 2019-11-20T18:20:07+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:20:07+08:00 ] 127.0.0.1 /Home/Login/remoteMobileCode.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:38:00+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:38:02+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:38:03+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:38:03+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:38:04+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:38:04+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:38:11+08:00 ] 127.0.0.1 /Home/Login/register.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE `username` = '123123' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: require D:\xxzl\dm\takeout\TakeOut1\ThinkPHP\Library\Think\Model.class.php 第 1425 行.
+
+[ 2019-11-20T18:39:08+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430715 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T18:39:10+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430714 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T18:39:23+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430715 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T18:39:25+08:00 ] 127.0.0.1 /Home/Login/remoteMobile.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `one_member` WHERE ( mobile=15236430716 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2019-11-20T18:46:36+08:00 ] 127.0.0.1 /Home/Index/jindex.html
+ERR: 非法操作:jindex
+
+[ 2019-11-20T18:46:42+08:00 ] 127.0.0.1 /Home/Index/jindex.html
+ERR: 非法操作:jindex
+
+[ 2019-11-20T18:46:47+08:00 ] 127.0.0.1 /Home/Index/jindex.html
+ERR: 非法操作:jindex
+
+[ 2019-11-20T18:47:32+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:47:32+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:47:33+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:47:33+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:47:36+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:47:36+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:48:14+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:48:14+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:49:53+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:49:53+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:51:38+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:51:38+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:52:51+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:52:51+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:53:00+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `one_member` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`username`,`avatar`,`grade`,`avatar_dir` FROM `one_member` WHERE (  `username` = 'cpcp' OR `mobile` = 'cpcp' ) AND `password` = '202cb962ac59075b964b07152d234b70' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `one_member` WHERE `active` = 2 AND `id` = '10' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2019-11-20T18:53:14+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:53:18+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:03+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:05+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:54:07+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:07+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:54:08+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:08+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:54:40+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:40+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:54:41+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:41+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:42+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:42+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:42+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:42+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:54:42+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:42+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:43+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:43+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:54:43+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:54:43+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:04+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:04+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:04+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:04+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:04+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:04+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:05+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:06+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:07+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:07+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:07+08:00 ] 127.0.0.1 /Home/Index/menuDetail/id/buy.html
+ERR: 1054:Unknown column 'buy' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `one_menu` WHERE ( id=buy ) LIMIT 1  
+
+[ 2019-11-20T18:55:09+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:09+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:09+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:09+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:19+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:19+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-11-20T18:55:20+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:20+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:21+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:21+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:23+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:23+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:24+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:24+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:39+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:39+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:39+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:39+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:39+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:40+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:40+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:40+08:00 ] 127.0.0.1 /Home/Login/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:52+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T18:55:53+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:55:53+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T18:56:32+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:00:21+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:00:22+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:00:23+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T19:00:23+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:00:25+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:04:43+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:06:45+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:06:54+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T19:07:21+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T19:07:38+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2019-11-20T19:07:43+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:15:05+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:34:08+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2019-11-20T19:34:09+08:00 ] 127.0.0.1 /Home/Block/addCart/id/%2Bid%2B.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="__PUBLIC__css/style.css" rel="stylesheet" />
+<script type="text/javascript" src="__PUBLIC__js/jQuery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/layer_mobile/layer.js"></script>
+<title>更改绑定手机</title>
+</head>
+
+<body>
+    <div class="header">
+        <table width="100%" border="0" cellspacing="0" class="header_nav">
+            <tr>
+                <td width="10%" class="nav_left1"><a  href="{:U('Member/Member/myinfo')}"><</a></td>
+                <td width="80%" class="nav_title">更改绑定手机</td>
+                <td width="10%" class="nav_r"></td>
+            </tr>
+        </table>
+    </div>
+	<div class="login">
+    	<div class="logo"></div>
+        <form action="" method="post" id="register">
+            <div class="main">
+                <table width="100%" border="0" cellspacing="0" class="main1">
+                    <tr>
+                        <td class="text">
+                            <input type="text" name="mobile" id="mobile" class="text1" placeholder="输入手机号"/>
+                            <div class="validate-error mobile"></div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="linee"></div>
+
+                <table width="100%" border="0" cellspacing="0" class="main1">
+                    <tr>
+                        <td class="text" style="position: relative">
+                            <input type="text" name="mobile_code"  class="text1" placeholder="输入短信验证" style="width:200px;"/>
+                            <button id="zphone" type="button" class="button1" onClick="get_mobile_code()"> 手机验证 </button>
+                            <div class="validate-error">{$errors.mobile_code|default=''}</div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="linee"></div>
+            </div>
+            <div class="button"><button class="text2" id="submit">修 改</button></div>
+        </form>
+    </div>
+</body>
+<script>
+    $('#register').validate({
+        rules:{
+            mobile :{
+                required :true,
+                mobile : true,
+                remote:{
+                    url:'{:U("remoteMobile")}',
+                    type:'post',
+                }
+            },
+            mobile_code : {
+                required: true,
+                remote:{
+                    url:'{:U("remoteMobileCode")}',
+                    type:'post',
+                }
+            },
+        },
+        messages:{
+            mobile:{
+                required: '手机号码不能为空',
+                mobile: "手机号格式不正确",
+                remote: "手机号已被占用"
+            },
+            mobile_code : {
+                required:"短信验证码不能为空",
+                remote:"验证码不正确"
+            },
+        },
+//配置成功提示样式
+        errorElement: "div",
+        success: function(div) {
+            div.addClass("ok").html('验证通过');
+        },
+        validClass: "ok",
+    });
+    $('input').change(function () {
+        $(this).closest('td').find('div').text('');
+    });
+
+    //短信验证码
+    function get_mobile_code(){
+        $.post( '{:U("mobile")}' ,{mobile:jQuery.trim($('#mobile').val())}, function(msg) {
+            console.log(msg);
+            if(msg ==='提交成功'){
+                RemainTime();
+            }else{
+                //	location.reload();
+                layer.open({
+                    content: msg,
+                    btn: '我知道了',
+                    shadeClose: false,
+                });
+            }
+        });
+    };
+    var iTime = 59;
+    var Account;
+    function RemainTime(){
+        $('#zphone').attr('disabled',true);
+        var iSecond,sSecond="",sTime="";
+        if (iTime >= 0){
+            iSecond = parseInt(iTime%60);
+            iMinute = parseInt(iTime/60)
+            if (iSecond >= 0){
+                if(iMinute>0){
+                    sSecond = iMinute + "分" + iSecond + "秒";
+                }else{
+                    sSecond = iSecond + "秒";
+                }
+            }
+            sTime=sSecond;
+            if(iTime==0){
+                clearTimeout(Account);
+                sTime='短信验证';
+                iTime = 59;
+                document.getElementById('zphone').disabled = false;
+            }else{
+                Account = setTimeout("RemainTime()",1000);
+                iTime=iTime-1;
+            }
+        }else{
+            sTime='没有倒计时';
+        }
+        document.getElementById('zphone').value = sTime;
+    }
+
+    //手机号码验证
+    jQuery.validator.addMethod("mobile", function(value, element) {
+        var mobileReg = /^1[34578][0-9]{9}$/;
+        return this.optional(element) || (mobileReg.test(value));
+    }, "请正确填写您的手机号码");
+</script>
+</html>

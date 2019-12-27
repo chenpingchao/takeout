@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="__PUBLIC__css/css.css" rel="stylesheet" />
+<script type="text/javascript" src="__PUBLIC__js/jQuery-1.8.2.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="__PUBLIC__js/layer_mobile/layer.js"></script>
+    <title>炸鸡</title>
+    <style>
+        .display{
+            display: none;
+        }
+        .regRight div .current{
+            display: block;
+        }
+        .order_right .jjj{
+            font-size:13px;
+        }
+        .title-list li.active{
+            color: #ff6600;
+            font-weight: bold;
+            width: 93.75px;
+            line-height: 43px;
+            float: left;
+            display: inline;
+            cursor: pointer;
+            /*font-weight: bold;*/
+            /*color: #333333;*/
+            font-size: 15px;
+        }
+        .ordermain:last-child{
+            margin-bottom:75px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+    <table width="100%" border="0" cellspacing="0" class="header_nav">
+    	<tr>
+        	<td width="10%" class="nav_left1"><a  href='javascript:window.history.go(-1)'><</a></td>
+            <td width="80%"class="nav_title">{$ShopOne['shop_name']}</td>
+            <td width="10%" class="nav_r"></td>
+        </tr>
+    </table>
+    </div>
+    
+    <!--/*主要部分*/-->
+    <div class="takemain">
+    	<a href="{:U('Home/Shop/Num_T',array('id'=>$ShopOne['id']))}"></a>
+            <div class="take">
+                <td width="" class="take_pic">
+                    <img src="__SHOP__{$ShopOne['image']}" width="100%" height="300px"/>
+                </td>
+        	<table width="100%" border="0" cellspacing="0">
+                <tr style="">
+                   <td width="50" class="take_text">
+                       <div style="margin-bottom:8px;" take_text_1>{$ShopOne['shop_name']}</div>
+                       <!--点击收藏-->
+                       <div style="float: right;" class="sj">
+                           <a href="{:U('Home/Shop/Num_T',array('id'=>$ShopOne['id']))}" id="collection-add-del" class="icoa">
+                               <img src="/Public/img/collect.png">
+                               收藏店铺（<span id="coll_num">{$num}</span>）
+                           </a>
+                       </div>
+
+                       <div class="jj">电话:{$ShopOne['shop_mobile']}</div>
+                       <div class="sj">地址:{$ShopOne['site']}</div>
+                       <div class="sj">描述:{$ShopOne['detail']}</div>
+                   </td>
+                </tr>
+                <tr>
+                    <td class="take_phone">
+                        <div style="width:100%;margin-bottom:300px;">
+                            <div class="order" style="margin-top:20px;">
+                                <ul class="order_left title-list">
+                                    <li class="left active">菜品</li>
+                                    <li class="left">评论</li>
+                                    <li class="left">详情</li>
+                                    <li class="left">留言</li>
+                                </ul>
+                                <div class="menutab-wrap">
+                                        {/*店铺菜品*/}
+                                    <div class="order_right current menutab" style="display:block;" id="menutabs0">
+                                        <form action="" method="post" class="goodXB" id="GoodsZ">
+                                            <volist name="Menu" id="v" key="k" empty="没有菜品">
+                                                    <div class="ordermain">
+                                                    <table width="100%" border="0" cellspacing="0" >
+                                                        <tr>
+                                                            <a href="product.html">
+                                                            <td width="30" class="order_pic">
+                                                                <img  src="{$v['filepath1']?$v['filepath1']:$filepath2}" width="100%" height="auto"/>
+                                                            </td>
+                                                            </a>
+                                                                <td width="60" class="order_text">
+                                                                <div take_text_1>{$v.menu_name}</div>
+                                                                <div>
+                                                                    <div></div>
+                                                                    <div class="jjj" style="width:110px; white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">描述:{$v.detail}</div>
+                                                                    <div class="jjj">销量:{$v.salde_num}</div>
+                                                                </div>
+                                                                <div class="sj">规格：<span>{$v.price}</span>/盘</div>
+                                                            </td>
+                                                            <td>
+                                                                <!--商品数量购物车添加       姓名是菜品id 即是下标-->
+                                                                    <input  id="min" style="width:21px; height:21px;border:0px solid #ccc;" type="button" value="-" />
+                                                                    <input  id="buynum" name="{$v.id}" type="text" value="0" style=" width:20px;height:20px; text-align:center; border:1px solid #ccc;" />
+                                                                    <input  id="add"  type="button" value="+" style="width:21px; height:21px;border:0px solid #ccc;"/>
+                                                            </td>
+                                                        </tr>
+                                                    </table>
+                                                </div>
+                                            </volist>
+                                        </form>
+                                    </div>
+                                        {/*店铺评论*/}
+                                    <div class="order_right current menutab" style="display: none;height:330px;" id="menutabs1">
+                                        <volist name="MenuComment" id="v" key="k" empty="没有评论">
+                                            <div class="ShopComment">
+                                                <div class="SpName">
+                                                    <a class="jjj" href="#"><b>菜名:</b>{$v.menu_name}</a>
+                                                </div>
+                                                <div class="C-content" style="text-align: center;">
+                                                    <div style="text-align:left;"><q class="jjj">{$v.detail}</q></div>
+                                                    <div style="text-align:right;"><i class="jjj">{$v.add_time}</i></div>
+                                                </div>
+                                                <div style="float:right;" class="username jjj"><b>用户:</b>{$v.username}</div>
+                                            </div>
+                                            <div class="ShopComment" style="margin-top:10px;">
+                                                <div class="username jjj"><b>{$v.shop_name}:</b><i class="jjj">{$v.reply}</i></div>
+                                            </div>
+                                            <hr style="margin-bottom:5px;margin-top:5px;">
+                                        </volist>
+                                    </div>
+                                        {/*店铺详情*/}
+                                    <div class="order_right current menutab" style="display: none;height:330px;" id="menutabs2">
+                                        <div>
+                                            <img style="border-radius:50%;" src="__SHOP__{$ShopOne['logo']}" width="40%"/>
+                                        </div>
+                                        <div class="jjj" style="margin-top:15px;margin-left:10px;">注册时间:{$ShopOne['add_time']}</div>
+                                        <div class="sjj" style="margin-top:15px;margin-left:10px;">{$ShopOne['time']}年老店</div>
+                                    </div>
+                                        {/*店铺留言*/}
+                                    <div class="order_right current menutab" style="display: none;height:330px;" id="menutabs3">
+                                        <volist  name="Guestbook" id="v" key="k" empty="暂时没有评论">
+                                            <div class="ShopComment">
+                                                <div class="SpName">
+                                                    <a class="jjj" href="#"><b>用户:</b>{$v.username}</a>
+                                                </div>
+                                                <div class="C-content" style="text-align: center;">
+                                                    <div style="text-align:left;"><q class="jjj" >{$v.content}</q></div>
+                                                    <div style="text-align:right;"><i class="jjj" >{$v.add_time}</i></div>
+                                                </div>
+                                            </div>
+                                            <div class="ShopComment" style="margin-top:10px;">
+                                                <div class="username jjj"><b>{$v.shop_name}:</b><i class="jjj">{$v.reply}</i></div>
+                                            </div>
+                                            <hr style="margin-bottom:5px;margin-top:5px;">
+                                        </volist>
+                                        <div style="margin-bottom:5px;margin-top:5px;">
+                                            <form class="jjj" id="form_adds" method="post" action="">
+                                                <table style="margin-left:5px;" width="100%" border="0" cellspacing="0" class="mainl">
+                                                    <tr>
+                                                        <td class="text">
+                                                            <i>问题补充：</i>
+                                                            <textarea name="content" id="guestbook" cols="" rows=""  required placeholder="请详细说明您的问题..." style="width:250px;height:80px" onkeyup="checkLength(this);"></textarea>
+                                                            <div class="validate-error">{$errors.content|default=''}</div>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                <div>
+                                                    <input type="button" style="width:50px;height:20px;border:1px #dddddd solid;margin-left:5px;margin-top:5px;" id="guestbook_add"  value="提交" />
+                                                    <span style="float:right;">剩余字数：<span id="sy" style="color:Red;">200</span>字</span>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+            </div>
+    </div>
+<!--购物车-->
+    <div class="btn">
+        <table width="100%" border="0" cellspacing="0">
+            <tr style="text-align: center">
+                <td class="btn1">
+                    <input type="button" id="Goods_Add" value="加入购物车" class="btn2">
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="kb"></div>
+    {/*底下导航*/}
+<!--    <table width="100%" border="0" cellspacing="0" class="nav">-->
+<!--    	<tr>-->
+<!--        	<td width="25" class="foot"><a href="index.html"><img src="__PUBLIC__img/11.png" width="40%" height="auto"/><p>外卖</p></a></td>-->
+<!--            <td width="25" class="foot"><a href="classify.html"><img src="__PUBLIC__img/2.png" width="40%" height="auto"/><p><span>分类</span></p></a></td>-->
+<!--            <td width="25" class="foot"><a href="shopping.html"><img src="__PUBLIC__img/33.png" width="40%" height="auto"/><p>购物车</p></a></td>-->
+<!--            <td width="25" class="foot"><a href="member.html"><img src="__PUBLIC__img/44.png" width="40%" height="auto"/><p>我的</p></a></td>-->
+<!--        </tr>-->
+
+<!--    </table>-->
+<!--    <div class="kb"></div>-->
+</body>
+<script>
+    //店铺提交验证
+    $('#form_val').validate({
+        rules:{
+            content: {
+                required: true,
+                minlength: 1,
+                maxlength: 200,
+            }
+        },
+        messages:{
+            content:{
+                required:"必须填写用户名" ,
+                minlength:"用户名长度小于1位",
+                maxlength:"用户名长度大于200位",
+
+            }
+        },
+//配置成功提示样式
+        errorElement: "div",
+        success: function(div) {
+            div.addClass("ok").html('验证通过');
+        },
+        validClass: "ok",
+    })
+
+    /*字数限制*/
+    function checkLength(which) {
+        var maxChars = 100; //
+        if(which.value.length > maxChars){
+            layer.open({
+                icon:2,
+                title:'提示!!!',
+                content:'您输入的字数超过限制!',
+            });
+            // 超过限制的字数了就将 文本框中的内容按规定的字数 截取
+            which.value = which.value.substring(0,maxChars);
+            return false;
+        }else{
+            var curr = maxChars - which.value.length; //250 减去 当前输入的
+            document.getElementById("sy").innerHTML = curr.toString();
+            return true;
+        }
+    };
+
+    //选项卡
+    $('.order .title-list li').click(function(){
+        //划过哪个选项，哪个选项高亮显示 ，而其它的选项取消高亮显示
+        $(this).addClass('active').siblings('li').removeClass('active');
+        //取出划过选项卡的下标
+        var i=$(this).index();
+        // console.log($('#menutabs'+i));
+        //通过下标找到对应的商品
+        $('#menutabs'+i).css('display','block').siblings('div').css('display','none');
+    });
+
+    //分页--店铺评论
+    function comment(page,url){
+        var page=page?page:1;
+        alert(page);
+        $.get(url,{"page":page,'type':'comment'},function(res){
+            $('#menutabs1').html(res);
+        })
+    }
+
+    //删除--添加--店铺收藏
+    $('#collection-add-del').click(function () {
+        var me=this;
+        $.get($(me).attr('href'),function(data){
+            if(data.stats === 'add'){
+                layer.open({
+                    style: 'width:15em;height:7em;border:none; background-color:#ff8880; color:#fff;font-size:18px;text-align:center;',
+                    content:'收藏成功',
+                    time:2
+                })
+                // $('#coll_num').text(parseInt($('#coll_num').text()+1);
+                $('#coll_num').text(data.num)
+            }else if(data.stats === 'error'){
+                layer.open({
+                    style: 'width:15em;height:7em;border:none;background-color:#ff8880; color:#fff;font-size:18px;text-align:center;',
+                    content:'取消收藏',
+                    time:2
+                })
+                $('#coll_num').text(data.num)
+            }else{
+                location = "{:U('Home/Login/index')}";
+            }
+        });
+        //阻止超链接默认行为
+        return false;
+    });
+
+    //店铺留言---未登录者跳转登录页面
+    $('#guestbook_add').click(function(){
+            $.post('{:U("/Home/Shop/guestbook",array("sid"=> $ShopOne["id"]))}', $('#form_adds').serialize(), function (data) {
+                //判断是否登录成功
+                if (data.stats === 'ok') {
+                    layer.open({
+                        style: 'width:15em;height:7em;border:none; background-color:#ff8880; color:#fff;font-size:18px;text-align:center;',
+                        content:'提交成功',
+                        time:2,
+                        success: function() {
+                            history.go(0);
+                        }
+                    })
+                } else if(data.stats === 'error') {
+                    layer.open({
+                        style: 'width:15em;height:7em;border:none; background-color:#ff8880; color:#fff;font-size:18px;text-align:center;',
+                        content:'提交失败',
+                        time:2,
+                        success: function() {
+                            history.go(0);
+                        }
+                    })
+                }else{
+                    location = "{:U('Home/Login/index')}";
+                }
+            }, 'json')
+        return false;
+    });
+</script>
+<script>
+    //加的处理
+    $('input[id="add"]').click(function(){
+        me = $(this)
+        if(me.prev().val() >=0 ){
+            me.prev().val( parseInt( me.prev().val() )+1 )
+            // allPrice();
+        }
+    });
+    //减的处理
+    $('input[id="min"]').click(function(){
+        me = $(this);
+        if(me.next().val() >=1) {
+            me.next().val(me.next().val() - 1);
+            // allPrice()
+        }
+    });
+    //直接修改商品的个数
+    $('input[id="buynum"]').blur(function(){
+        me = $(this);
+        num = parseInt(me.val());
+        if(isNaN(num)){
+            num = 0;
+            me.val(0);
+        }else if(num < 0) {
+            num = 1;
+            me.val(1);
+        }else if(num>99){
+            num = 99;
+            me.val(99);
+        }else{
+            me.val(num);
+        }
+    });
+
+
+    //菜品添加进购物车 uid sid buynum
+    $('#Goods_Add').click(function () {
+        $.post('{:U("Home/Block/GoodsAdd")}',$('#GoodsZ').serialize(),function (data){
+            if (data.status === 'ok') {
+                layer.open({
+                    title: [
+                        '询问',
+                        'background-color:#ff8000; color:#fff;'
+                    ]
+                    , anim: 'up'
+                    , content: '是否去购物车'
+                    , btn: ['去购物车', '留在本页面']
+                    , yes: function () {
+                        location = "{:U('Home/Block/ShoPP')}";
+                    }
+                });
+            } else {
+                layer.open({
+                    style: 'border:none; background-color:#ff8000; color:#fff;',
+                    content: '购物车添加失败',
+                    time: 2
+                })
+            }
+        },'json');
+        return false;
+    });
+</script>
+</html>

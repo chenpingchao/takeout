@@ -1,0 +1,19 @@
+<tr>
+<volist name="menu" id="v" key="k" empty="$empty_menu">
+    <if condition="$k-1 eq $n*3">
+</tr>
+<tr>
+    <php>
+        $n++;
+    </php>
+</if>
+    <td class="main_1" >
+        <a href="{:U('Home/Index/menuDetail',array('uid'=>$v['id']))}">
+            <div class="main_2">
+                <img src="../../../../index.php" width="100%" height="auto"/>
+            </div>
+            <div class="indetext">{$v.menu_name}</div>
+        </a>
+    </td>
+</volist>
+</tr>

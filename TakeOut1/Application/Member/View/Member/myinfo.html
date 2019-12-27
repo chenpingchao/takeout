@@ -1,0 +1,176 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="/public/css/style.css" rel="stylesheet" />
+<script src="/public/js/jquery-3.3.1.min.js"></script>
+<script src="/public/js/layer_mobile/layer.js"></script>
+<title>个人信息</title>
+    <style>
+        ul,li{
+            list-style-type: none;
+        }
+        .box{
+            width: 90%;
+            border: 1px #ccc solid;
+            clear: both;
+            margin-bottom: 2px;
+        }
+        .left{
+            display: inline-block;
+            float: left;
+            text-align: left;
+            font-size: 14px;
+            line-height: 2em;
+        }
+        .right{
+            display: inline-block;
+            float: right;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+	<div class="header">
+    <table width="100%" border="0" cellspacing="0" class="header_nav">
+    	<tr>
+        	<td width="10%" class="nav_left1"><a  href="{:U('Member/Member/index')}"><</a></td>
+            <td width="80%" class="nav_title">个人信息</td>
+            <td width="10%" class="nav_r"></td>
+        </tr>
+    </table>
+    </div>
+    <!--/*主要部分*/-->
+    <div class="bodymain">
+    	<div class="pass">
+            <form id="form_msg">
+                <input type="hidden" name="act" value="msg">
+                <table width="100%" border="0" cellspacing="0">
+                    <tr>
+                        <td>姓&emsp;名&emsp;:&nbsp;</td>
+                        <td><div id="name" style="float: left">{:session('mname')}</div></td>
+                    </tr>
+                    <tr>
+                        <td>手&emsp;机&emsp;:&nbsp;</td>
+                        <td>
+                            <input type="text" disabled value="{$info.mobile}" class="work" style="width: 40%;float: left;" />
+                            <button class="changemobile" type="button" style="font-size:15.5px;float: left;line-height: 2em;margin-left:3px">修改绑定手机</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>收货地址:&nbsp;</td>
+                        <td>{$empty|default=''}</td>
+                    </tr>
+                </table>
+            </form>
+            <ul>
+                <form id="form_active">
+                    <input type="hidden" name="act" value="active">
+                    <volist name="msg" id="v">
+                        <li>
+                            <div class="box">
+                                <a href="{:U('Member/Member/msginfo',array('id'=>$v[id]))}" style="color: #666">
+                                    <div class="left">
+                                        <div>姓名:{$v.name}&emsp;手机:{$v.mobile}</div>
+                                        <div>地址:{$v.location}&emsp;{$v.site}</div>
+                                    </div>
+                                </a>
+                                <div class="right">
+                                    <input  type="radio" name="active" value="{$v.id}" {$v[active]==1?checked:false} >
+                                </div>
+                            </div>
+                        </li>
+                    </volist>
+                </form>
+            </ul>
+            <div style="clear: both;">
+                {$add_msg}
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+    //修改用户名
+    $('#name').on({
+        touchstart:(function () {
+            me=$('#name');
+            timeOutEvent = setTimeout(function () {
+                timeOutEvent = 0;
+                var value = me.text();
+                me.closest('td').html("<input name='username' style='float: left;font-size: 16px' value="+value+">");
+            },500)}
+        ),
+        touchmove:(function () {
+            clearTimeout(timeOutEvent);
+        }),
+        touchend: function() {
+            clearTimeout(timeOutEvent);
+            return false;
+        }
+    });
+
+    $('#name').closest('td').on('change',"input[name='username']",function () {
+        $(this).after("<button type='button' name='edit'>确认修改</button>");
+    });
+
+    $('#name').closest('td').on('click',"button[name='edit']",function () {
+        $.get('',$('#form_msg').serialize(),function (data) {
+            if (data.status==1){
+                layer.open({
+                    content:data.info,
+                    skin: 'msg',
+                    time:1,
+                    end:function () {
+                        location.reload(true);
+                    }
+                });
+            } else {
+                layer.open({
+                    content:data.info,
+                    skin: 'msg',
+                    time:2
+                });
+            }
+        },'json')
+    });
+
+    //修改默认地址
+    $("input[name='active']").change(function () {
+        $.get('',$('#form_active').serialize(),function (data) {
+            if (data.status==1){
+                layer.open({
+                    content:data.info,
+                    skin: 'msg',
+                    time:1,
+                    end:function () {
+                        location.reload(true);
+                    }
+                });
+            } else {
+                layer.open({
+                    content:data.info,
+                    skin: 'msg',
+                    time:2
+                });
+            }
+        },'json');
+        return false;
+    });
+
+    //更改绑定手机
+    $('.changemobile').click(function () {
+        layer.open({
+            content:'确认更改绑定手机？',
+            btn:['确认更改','我再想想'],
+            yes:function () {
+                location="{:U('Member/Member/changemobile')}"
+            }
+        })
+    });
+</script>
+</html>

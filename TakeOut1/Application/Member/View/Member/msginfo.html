@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="initial-scale=1.0,user-scalable=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<link type="text/css" href="/public/css/css.css" rel="stylesheet" />
+<link type="text/css" href="/public/css/style.css" rel="stylesheet" />
+<script src="/public/js/jquery-3.3.1.min.js"></script>
+<script src="/public/js/layer_mobile/layer.js"></script>
+<script src="/public/js/geo.js"></script>
+<title>地址详情</title>
+    <style>
+        .my{
+            margin-top: 50px;
+        }
+        .my td{
+            font-size: 16px;
+            line-height: 1.7em;
+        }
+        .my input,.my textarea{
+            padding:5px;
+            border: none;
+            width: 70%;
+            height: 30px;
+        }
+        .my select{
+            height: 30px;
+        }
+        .validate-error{
+            color: #ff4444;
+        }
+    </style>
+</head>
+<body>
+    <if condition="$status[status] eq ok">
+        <script>
+            layer.open({
+                content:'{$status[msg]}',
+                skin: 'msg',
+                time:1
+            });
+        </script>
+    <elseif condition="$status[status] eq error" />
+        <script>
+            layer.open({
+                content:'{$status[msg]}',
+                skin: 'msg',
+                time:1
+            });
+        </script>
+    </if>
+    <div class="header">
+        <table width="100%" border="0" cellspacing="0" class="header_nav">
+            <tr>
+                <td width="10%" class="nav_left1"><a  href="{:U('Member/Member/myinfo')}"><</a></td>
+                <td width="80%"class="nav_title">地址详情</td>
+                <td width="10%" class="nav_r"></td>
+            </tr>
+        </table>
+	</div>
+    <form action="{:U('Member/Member/msgedit')}" method="post">
+        <input type="hidden" name="id" value="{$data.id}">
+        <div class="my">
+            <table width="100%" border="0" cellspacing="0" class="my_name">
+                <tr>
+                    <td class="my_main_p">
+                        <label for="name">收货人姓名:</label>
+                        <input type="text" id="name" name="name" value="{$data.name}">
+                        <div class="validate-error name">{$errors.name|default=''}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="my_main_p">
+                        <label for="mobile">收货人手机:</label>
+                        <input type="text" id="mobile" name="mobile" value="{$data.mobile}">
+                        <div class="validate-error mobile">{$errors.mobile|default=''}</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="my_main_p">
+                        <span><label for="">选择所在地：</label></span>
+                        <p>
+                            <select name="province" id="s1"></select>
+                            <select name="city" id="s2"></select>
+                            <select name="town" id="s3"></select>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="my_main_p">
+                        <span><label for="">街道地址：</label></span>
+                        <p>
+                            <textarea name="site" cols="40" rows="1" style="font-size: 16px;line-height: 1.5em">{$data.site}</textarea>
+                        </p>
+                        <div class="image site"></div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="button" ><input type="submit" value="保存" class="text2" style="background-color: #f0ad4e;color: #fff3f3"/></div>
+    </form>
+   <div class="button delete" href="{:U('Member/Member/msgdel',array('id'=>$data[id]))}" ><input type="button" value="删除" class="text2" /></div>
+</body>
+<script src="/public/js/layer_mobile/layer.js"></script>
+<script>
+    //省市县三级联动
+    setup();
+    preselect('{$data[province]}');
+    document.getElementById('s2').value='{$data[city]}';
+    document.getElementById('s2').onchange();
+    document.getElementById('s3').value='{$data[town]}';
+
+    //删除
+    $('.delete').click(function () {
+        me = this;
+       layer.open({
+           content:'确认删除地址？',
+           btn:['确认','再想想'],
+           yes:function () {
+               $.get($(me).attr('href'),'',function(data) {
+                   if (data.status==1) {
+                       layer.open({
+                           content:data.info,
+                           skin: 'msg',
+                           time:1,
+                           end:function () {
+                               location="{:U('Member/Member/myinfo')}";
+                           }
+                       });
+                   }else {
+                       layer.open({
+                           content:data,
+                           skin: 'msg',
+                           time:1
+                       });
+                   }
+               });
+           }
+       }) ;
+    });
+</script>
+</html>

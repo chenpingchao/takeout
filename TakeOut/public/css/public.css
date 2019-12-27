@@ -1,0 +1,105 @@
+div ul.pagination li.active{
+    font-weight:bold;
+    background: #019875;
+}
+
+div ul.pagination{
+    list-style-type:none;
+    float: right;
+
+}
+div ul.pagination li {
+
+    float: left;
+    width:20px;
+    height:20px;
+    border:#333333 1px;
+    text-align:center;
+}
+body .demo-class .layui-layer-title{background:red; color:#fff; border: none;}
+body .demo-class .layui-layer-btn{border-top:1px solid #E9E7E7}
+body .demo-class .layui-layer-btn a.layui-layer-btn0 {background:#ff0000;border:0;}
+body .demo-class .layui-layer-btn a.layui-layer-btn1 {background:#fff;color:#000}
+
+.bg {
+    background: url("/image/star1.png");
+    width: 93px;
+    height: 16px;
+}
+.bg div {
+    background: url("/image/star2.png");
+    height: 100%;
+}
+
+.xuanze{
+    width:120px;
+    height:40px;
+    border:1px solid #999;
+    margin-top:20px;
+    font-size:20px;
+    color:#888;
+}
+.add_cate{
+    float:right;
+    width:30px;
+    height:30px;
+    background:#91cebe;
+    border-radius:30px;
+    color:#fff;
+    font-size:35px;
+    text-align:center;
+}
+
+.add_menu_cate{
+    margin:0 auto;
+    width:300px;
+    font-size:15px;
+}
+.insert{
+    width:80px;
+    height:35px;
+    margin:35px 100px;
+    border: 1px solid #ccc;
+    background: #eee;
+}
+.add_box{
+    margin:20px 10px;
+}
+
+.mc_name,.shan,.tuan{
+    float:left;
+    border:1px solid #91cebe;
+    border-radius:5px;
+    margin:5px 10px;
+    padding:10px;
+    background:#91cebe;
+    color:#fff;
+}
+.clear{
+    clear:left;
+}
+.clearfix:after{
+    clear:both;
+    content: '';
+    display: block;
+    /*visibility:hidden;
+    clear:both;
+    display:block;
+    content:".";
+    height:0;*/
+}
+
+.mc_unactive{
+    background:#f00;
+}
+
+.buttom{
+    display:bolck;
+    margin:20px 10px 0 10px;
+    width:60px;
+    height:25px;
+    border: 1px solid #ccc;
+    background: #eee;
+    text-align:center;
+}
+
