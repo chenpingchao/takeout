@@ -49,11 +49,10 @@
                         <a href="<?php echo e(route('home.register')); ?>">注册</a>/
                         <a href="<?php echo e(route('home.login')); ?>">登录</a>
                     <?php endif; ?>
-                <a href="#">QQ客服</a>
-                <a href="#">微信客服</a>
-                <a href="#">手机客户端</a>
+                
             </div>
             <div class="RightNav">
+                <a href="<?php echo e(route('home.activity.index')); ?>">活动中心</a>
                 <a href="<?php echo e(route('hm.mem.UserCenter')); ?>">用户中心</a>
                 <a href="<?php echo e(route('hm.mem.UserOrder')); ?>" target="_blank" title="我的订单">我的订单</a>
                 <a href="<?php echo e(route('home.cart')); ?>">购物车（<?php cart_a()?>）</a>
@@ -66,8 +65,8 @@
         <div class="Logo">
             <a href="<?php echo e(route('/')); ?>"><img src="/image/logo.png" title="外卖商城" alt="外卖商城"></a>
             <i></i>
-            <select style="height:30px;font-size:15px;border-color:white;font-weight:700;" name="province" id="s1"></select>
-            <select style="height:30px;font-size:15px;border-color:white;font-weight:700;" name="city" id="s2"></select>
+            <select style="height:30px;font-size:15px;border:0;font-weight:700;appearance:none;background:transparent;-moz-appearance: none;-webkit-appearance: none;" name="province" id="s1"></select>
+            <select style="height:30px;font-size:15px;border:0;font-weight:700;appearance:none;background:transparent;-moz-appearance: none;-webkit-appearance: none;" name="city" id="s2"></select>
         </div>
         <div class="Search">
             
@@ -81,7 +80,7 @@
                         <?php echo e(csrf_field()); ?>
 
                         <div class="Search_area">
-                            <input type="search" name="shop_name" placeholder="请输入您所需查找的餐厅名称..." class="searchbox" />
+                            <input type="search" name="shop_name" value="<?php echo e(!empty($shop_name)?$shop_name:''); ?>" placeholder="请输入您所需查找的餐厅名称..." class="searchbox" />
                             <input type="button" id="0" class="searchbutton loginBtn" value="搜 索" />
                         </div>
                     </form>
@@ -89,7 +88,7 @@
                         <?php echo e(csrf_field()); ?>
 
                         <div class="Search_area">
-                            <input type="search" name="menu_name" placeholder="请输入您所需查找的食物名称..." class="searchbox" />
+                            <input type="search" name="menu_name" value="<?php echo e(!empty($menu_name)?$menu_name:''); ?>" placeholder="请输入您所需查找的食物名称..." class="searchbox" />
                             <input type="button" id="1" class="searchbutton loginBtn" value="搜 索" />
                         </div>
                     </form>

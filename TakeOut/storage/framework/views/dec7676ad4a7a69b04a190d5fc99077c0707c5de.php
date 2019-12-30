@@ -4,20 +4,47 @@
   <aside class="C-left">
    <div class="S-time">服务时间：周一~周六<time>09:00</time>-<time>23:00</time></div>
    <div class="C-time">
-    <img src="/home/upload/dc.jpg"/>
+    <?php if($Leftindexad): ?>
+     <a href="" title="">
+      <img width="293" src="<?php echo e($Leftindexad->img_dir); ?><?php echo e($Leftindexad->image); ?>" alt="广告">
+     </a>
+    <?php endif; ?>
    </div>
-   <a href="list.html" target="_blank"><img src="/home/images/by_button.png"></a>
-   <a href="list.html" target="_blank"><img src="/home/images/dc_button.png"></a>
   </aside>
   <div class="F-middle">
+   <?php if($indexad): ?>
    <ul class="rslides f426x240">
-    <li><a href="javascript:"><img src="/home/upload/01.jpg"/></a></li>
-    <li><a href="javascript:"><img src="/home/upload/02.jpg" /></a></li>
-    <li><a href="javascript:"><img src="/home/upload/03.jpg"/></a></li>
+    <li><a href="javascript:"><img width="600" src="<?php echo e($indexad->img_dir); ?><?php echo e($indexad->image); ?>"/></a></li>
+    <li><a href="javascript:"><img width="600" src="<?php echo e($indexad->img_dir); ?><?php echo e($indexad->image); ?>"/></a></li>
+    <li><a href="javascript:"><img width="600" src="<?php echo e($indexad->img_dir); ?><?php echo e($indexad->image); ?>"/></a></li>
    </ul>
+   <?php endif; ?>
   </div>
   <aside class="N-right">
    <div class="N-title">网站新闻<i>COMPANY NEWS</i></div>
+
+   <select style="display:none;" name="town" id="s3"></select>
+   
+   <script>
+    setup();
+    preselect('河南省');
+    document.getElementById('s2').value='郑州市';
+    document.getElementById('s2').onchange();
+    // console.log($('#s3').find('option:gt(0)'))  地区列表
+    site();
+    $('#s2').change(function(){site()});
+    function site(){
+     $('.site').remove();
+     var qu = $('#s3').find('option:gt(0)');
+     var str = '';
+     for(var i=0 ; i<qu.length;i++){
+      str += '<dd class="site"><a href="javascript:">'+qu.eq(i).text()+'</a></dd>';
+     }
+     $('#select1').append(str);
+
+    }
+   </script>
+
    <ul class="Orderlist">
     <?php $__empty_1 = true; $__currentLoopData = $orders; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k=>$v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
     <li>
@@ -75,38 +102,27 @@
     <ul id="Indextab">
      <li class="current">点菜</li>
      <li>餐馆</li>
+
      <p class="class_B">
-      <a href="#">中餐</a>
-      <a href="#">西餐</a>
-      <a href="#">甜点</a>
-      <a href="#">日韩料理</a>
-      <span><a href="#" target="_blank">more ></a></span>
+      
+      <?php $__empty_1 = true; $__currentLoopData = $scName; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $sc): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
+      <a href="<?php echo e(route('H_list_shop',['shop_name'=>$sc->sc_name])); ?>"><?php echo e($sc->sc_name); ?></a>
+      <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
+      <h2>暂无店铺菜品信息</h2>
+      <?php endif; ?>
+      <span><a><<&nbsp;&nbsp;&nbsp;&nbsp;店铺分类</a></span>
      </p>
+
     </ul>
     <div id="Indexcontent">
      <ul style="display:block;">
       <li>
-       <p class="seekarea">
-        <a href="#">碑林区</a>
-        <a href="#">新城区</a>
-        <a href="#">未央区</a>
-        <a href="#">雁塔区</a>
-        <a href="#">莲湖区</a>
-        <a href="#">高新区</a>
-        <a href="#">灞桥区</a>
-        <a href="#">高陵区</a>
-        <a href="#">阎良区</a>
-        <a href="#">临潼区</a>
-        <a href="#">长安区</a>
-        <a href="#">周至县</a>
-        <a href="#">蓝田县 </a>
-       </p>
        
        <div class="SCcontent">
          <?php $__empty_1 = true; $__currentLoopData = $menu; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $u): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
            <a href="<?php echo e(route('home.menuDetail',['uid' => $u->id ])); ?>" target="_blank" title="<?php echo e($u -> menu_name); ?>">
              <figure>
-               <img src="/home/upload/05.jpg">
+               <img src="<?php echo e($u->image_dir); ?><?php echo e($u->image); ?>">
                <figcaption>
                 <span class="title"><?php echo e($u -> menu_name); ?></span>
                 <span class="price"><i>￥</i><?php echo e($u -> price); ?></span>
@@ -121,21 +137,6 @@
      </ul>
      <ul>
       <li>
-       <p class="seekarea">
-        <a href="#">碑林区</a>
-        <a href="#">新城区</a>
-        <a href="#">未央区</a>
-        <a href="#">雁塔区</a>
-        <a href="#">莲湖区</a>
-        <a href="#">高新区</a>
-        <a href="#">灞桥区</a>
-        <a href="#">高陵区</a>
-        <a href="#">阎良区</a>
-        <a href="#">临潼区</a>
-        <a href="#">长安区</a>
-        <a href="#">周至县</a>
-        <a href="#">蓝田县 </a>
-       </p>
        <div class="DCcontent">
         
         <div class="bestshop">
