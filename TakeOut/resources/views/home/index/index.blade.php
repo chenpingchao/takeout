@@ -24,6 +24,29 @@
   </div>
   <aside class="N-right">
    <div class="N-title">网站新闻<i>COMPANY NEWS</i></div>
+
+   <select style="display:none;" name="town" id="s3"></select>
+   {{--地区列表--}}
+   <script>
+    setup();
+    preselect('河南省');
+    document.getElementById('s2').value='郑州市';
+    document.getElementById('s2').onchange();
+    // console.log($('#s3').find('option:gt(0)'))  地区列表
+    site();
+    $('#s2').change(function(){site()});
+    function site(){
+     $('.site').remove();
+     var qu = $('#s3').find('option:gt(0)');
+     var str = '';
+     for(var i=0 ; i<qu.length;i++){
+      str += '<dd class="site"><a href="javascript:">'+qu.eq(i).text()+'</a></dd>';
+     }
+     $('#select1').append(str);
+
+    }
+   </script>
+
    <ul class="Orderlist">
     @forelse($orders as $k=>$v)
     <li>
@@ -81,13 +104,17 @@
     <ul id="Indextab">
      <li class="current">点菜</li>
      <li>餐馆</li>
+
      <p class="class_B">
-      <a href="#">中餐</a>
-      <a href="#">西餐</a>
-      <a href="#">甜点</a>
-      <a href="#">日韩料理</a>
-      <span><a href="#" target="_blank">more ></a></span>
+      {{--菜品分类--}}
+      @forelse($scName as $sc)
+      <a href="{{route('H_list_shop',['shop_name'=>$sc->sc_name])}}">{{$sc->sc_name}}</a>
+      @empty
+      <h2>暂无店铺菜品信息</h2>
+      @endforelse
+      <span><a><<&nbsp;&nbsp;&nbsp;&nbsp;店铺分类</a></span>
      </p>
+
     </ul>
     <div id="Indexcontent">
      <ul style="display:block;">
@@ -97,7 +124,7 @@
          @forelse($menu as $u)
            <a href="{{route('home.menuDetail',['uid' => $u->id ])}}" target="_blank" title="{{ $u -> menu_name }}">
              <figure>
-               <img src="/home/upload/05.jpg">
+               <img src="{{$u->image_dir}}{{$u->image}}">
                <figcaption>
                 <span class="title">{{ $u -> menu_name }}</span>
                 <span class="price"><i>￥</i>{{ $u -> price }}</span>

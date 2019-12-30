@@ -49,9 +49,9 @@
                         <a href="{{route('home.register')}}">注册</a>/
                         <a href="{{route('home.login')}}">登录</a>
                     @endif
-                <a href="#">QQ客服</a>
+                {{--<a href="#">QQ客服</a>
                 <a href="#">微信客服</a>
-                <a href="#">手机客户端</a>
+                <a href="#">手机客户端</a>--}}
             </div>
             <div class="RightNav">
                 <a href="{{route('hm.mem.UserCenter')}}">用户中心</a>

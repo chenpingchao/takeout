@@ -29,8 +29,9 @@ Route::namespace("Admin") -> group(function(){
                Route::any('ad_update/{id}' , 'AdminController@ad_update')-> name('bg.admin.update');//个人信息修改
                Route::any('ad_up_pwd/{id}' , 'AdminController@ad_up_pwd')-> name('bg.admin.up_pwd');//密码修改
 
-               Route::get('ad_Power' , 'AdminController@ad_Power') -> name('bg.admin.Power');//权限管理
-               Route::get('ad_Power_add' , 'AdminController@ad_Power_add') -> name('bg.admin.Power_add');//添加权限
+               Route::any('ad_Power' , 'AdminController@ad_Power') -> name('bg.admin.Power');//权限管理
+               Route::any('ad_Role','AdminController@ad_Role') ->name('bg.admin.ad_Role');//管理员角色分配
+               Route::any('ad_Power_add' , 'AdminController@ad_Power_add') -> name('bg.admin.Power_add');//添加权限
            });
 
            Route::prefix('Message') -> group(function (){ //留言列表

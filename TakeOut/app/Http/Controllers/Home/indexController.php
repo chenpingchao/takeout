@@ -23,6 +23,12 @@ class indexController extends Controller
 {
     //显示主页
     public function index(){
+        session() -> put(['province'=> '河南省']);
+        session() -> put(['city'=> '郑州']);
+        //店铺分类名
+        $scName=ShopCate::where('active',1)
+            ->select('id','sc_name')
+            ->paginate();
         //查询订单表信息 订单状态1未付款2已付款3已发货4已签收5已评论6已取消
         $orders=Orders::join('member','orders.mid','=','member.id')
             ->orderBy('member.add_time','desc')
@@ -53,7 +59,7 @@ class indexController extends Controller
         $Leftindexad = Advertis_list::where('ap_id',77)->where('start_time','<=',time())->where('end_time','>=',time())->where('active',1) ->first();
         $indexad = Advertis_list::where('ap_id',78)->where('start_time','<=',time())->where('end_time','>=',time())->where('active',1)->first();
         $shopad = Advertis_list::where('ap_id',79)->where('start_time','<=',time())->where('end_time','>=',time())->where('active',1)->first();
-        return view("home.index.index",compact('menu','shop','orders','Guestbooks','Gcomment','Leftindexad','indexad','shopad'));
+        return view("home.index.index",compact('menu','shop','orders','Guestbooks','Gcomment','Leftindexad','indexad','shopad','scName'));
     }
 
     //显示商品详情页面
@@ -366,7 +372,7 @@ class indexController extends Controller
                 ->select('fenshu','shop.site','menu.id','menu.image_dir','menu.image','menu_name','menu.sid','or_price','price')
                 ->get();
 //        dd($MenuName);
-            return view('home.index.list_M',compact('MenuName','menu_name'));
+            return view('home.index.list_m',compact('MenuName','menu_name'));
         }
     }
 

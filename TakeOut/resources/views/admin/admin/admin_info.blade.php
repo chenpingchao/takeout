@@ -13,6 +13,7 @@
         <!--[if lte IE 8]>
 		  <link rel="stylesheet" href="/admin/assets/css/ace-ie.min.css" />
 		<![endif]-->
+        <script src="/js/jquery.form.js"></script>
 		<script src="/admin/js/jquery-1.9.1.min.js"></script>
 		<script src="/admin/assets/layer/layer.js" type="text/javascript" ></script>
         <script src="/admin/assets/laydate/laydate.js" type="text/javascript"></script>

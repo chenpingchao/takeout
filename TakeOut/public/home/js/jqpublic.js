@@ -44,7 +44,7 @@ $(function () {
 // class tree  fslist_navtree
 $(document).ready(function(){
 	
-	$("#select1 dd").live('click',function () {
+	$("#select1 dd").click(function () {
 		$(this).addClass("selected").siblings().removeClass("selected");
 		if ($(this).hasClass("select-all")) {
 			$("#selectA").remove();

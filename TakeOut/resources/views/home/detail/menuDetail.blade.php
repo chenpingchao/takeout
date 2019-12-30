@@ -274,7 +274,7 @@
         <!--case1-->
         <div class="menutab show">
           <div class="cont_padding">
-          {!! $menu_msg -> detail !!}
+              <img src="{{$menu_msg -> detail}}" alt="">
           </div>
         </div>
         <!--case2-->

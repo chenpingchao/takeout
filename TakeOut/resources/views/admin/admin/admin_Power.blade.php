@@ -18,7 +18,7 @@
 		<script src="/admin/assets/js/typeahead-bs2.min.js"></script>           	
 		<script src="/admin/assets/js/jquery.dataTables.min.js"></script>
 		<script src="/admin/assets/js/jquery.dataTables.bootstrap.js"></script>
-        <script src="/admin/assets/layer/layer.js" type="text/javascript" ></script>          
+		<script src="/admin/assets/layer/layer.js" type="text/javascript" ></script>
         <script src="/admin/assets/laydate/laydate.js" type="text/javascript"></script>
 <title>管理权限</title>
 </head>
@@ -27,8 +27,11 @@
  <div class="margin clearfix">
    <div class="border clearfix">
        <span class="l_f">
-        <a href="{{route('bg.admin.Power_add')}}" id="Competence_add" class="btn btn-warning" title="添加权限"><i class="fa fa-plus"></i> 添加权限</a>
-        <a href="javascript:ovid()" class="btn btn-danger"><i class="fa fa-trash"></i> 批量删除</a>
+		   <a href="javascript:ovid()" id="admin_role_add" class="btn btn-info"><i class="fa fa-plus"></i> 添加角色</a>
+		   <a href="javascript:ovid()" class="btn btn-danger"><i class="fa fa-trash"></i> 批量删除</a>
+		   <a href="{{route('bg.admin.Power_add')}}" id="Competence_add" class="btn btn-warning" title="添加权限">
+			   <i class="fa fa-plus"></i> 添加权限
+		   </a>
        </span>
        <span class="r_f">共：<b>5</b>类</span>
      </div>
@@ -96,6 +99,18 @@
 </body>
 </html>
 <script type="text/javascript">
+	/*管理员角色添加*/
+	$('#admin_role_add').on('click', function(){
+		parent.layer.open({
+			type: 2,
+			title:'(σﾟ∀ﾟ)σ..:*☆哎哟不错哦',
+			area: ['420px','420px'],
+			shadeClose: false,
+			content: ['{{route('bg.admin.ad_Role')}}','no'] ,
+		});
+	})
+</script>
+<script type="text/javascript">
 /*添加权限*/
 /* $('#Competence_add').on('click', function(){
 	 layer.open({
@@ -131,7 +146,7 @@
 		  }
 		}
     });
- });*/
+ });
  /*权限-删除*/
 function Competence_del(obj,id){
 	layer.confirm('确认要删除吗？',function(index){

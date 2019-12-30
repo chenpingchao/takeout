@@ -42,42 +42,6 @@
 						<span class="wordage">剩余字数：<span id="sy" style="color:Red;">200</span>字</span>
 					</div>
 				</div>
-				<div class="form-group">
-					<label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 用户选择 </label>
-					<div class="col-sm-9">
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> sm123456</span>
-						</label>
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> admin</span>
-						</label>
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> admin123456</span>
-						</label>
-						<label class="middle"><input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> style_name</span>
-						</label>
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> username</span>
-						</label>
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> adminname</span>
-						</label>
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> sm12345</span>
-						</label>
-						<label class="middle">
-							<input class="ace" type="checkbox" id="id-disable-check">
-							<span class="lbl"> 天使的行</span>
-						</label>
-					</div>
-				</div>
 				<!--按钮操作-->
 				<div class="Button_operation">
 					<button onclick="article_save_submit();" class="btn btn-primary radius" type="submit"><i class="fa fa-save "></i> 保存并提交</button>

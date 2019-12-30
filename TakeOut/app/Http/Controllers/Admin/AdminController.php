@@ -4,6 +4,7 @@ namespace App\Http\Controllers\admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Admin;
+use App\AdminRoles;
 use App\Admin_logs;
 
 class AdminController extends Controller{
@@ -204,6 +205,19 @@ class AdminController extends Controller{
     }
     public function ad_Power_add(){
         return view('admin.admin.Competence');
+    }
+    public function ad_Role(){
+        if (request()->post()){
+            $data['role_name']=trim(request('role_name'));
+            $data['detail']=trim(request('detail'));
+            if (AdminRoles::insert($data)){
+                return response()->json(['status'=>'ok','msg'=>'角色提交成功']);
+            }else{
+                return response()->json(['status'=>'error','msg'=>'角色提交失败']);
+            }
+        }else{
+            return view('admin.admin.admin_role');
+        }
     }
 }
 
