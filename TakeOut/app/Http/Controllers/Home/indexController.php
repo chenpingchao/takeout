@@ -92,7 +92,7 @@ class indexController extends Controller
         $fenshu=MenuComment:: where('uid',$uid)
                            -> avg('fenshu');
         $fenshus=round($fenshu,1);//四舍五入
-//        dd($menu_eval);
+        //dd($menu_eval);
         if (\request() -> ajax()){
             return view('home.detail.evalPage',compact('menu_eval','show','uid'));
         }else{

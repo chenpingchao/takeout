@@ -18,5 +18,13 @@ Route::namespace("Home") -> group(function(){
            //积分优惠兑换
             Route::any('convert','ScoreController@convert') -> name('home.score.convert');
         });
+
+        //活动页面
+        Route::prefix("activity") -> group(function (){
+           //活动首页
+            Route::get('index','ActivityController@index') -> name('home.activity.index');
+          //团购
+
+        });
     });
 });

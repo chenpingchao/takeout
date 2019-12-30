@@ -54,6 +54,7 @@
                 <a href="#">手机客户端</a>--}}
             </div>
             <div class="RightNav">
+                <a href="{{route('home.activity.index')}}">活动中心</a>
                 <a href="{{route('hm.mem.UserCenter')}}">用户中心</a>
                 <a href="{{route('hm.mem.UserOrder')}}" target="_blank" title="我的订单">我的订单</a>
                 <a href="{{route('home.cart')}}">购物车（<?php cart_a()?>）</a>
