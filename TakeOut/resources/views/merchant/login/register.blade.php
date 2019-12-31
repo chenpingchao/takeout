@@ -59,7 +59,7 @@
 <body id="login_bg">
 	<div class="login_wrapper">
 		<div class="login_header">
-        	<a href="h/"><img src="/merchant/style/images/logo_white.png" width="285" height="62" alt="拉勾招聘" /></a>
+            <a href="{{route('/')}}"><img src="/image/merchantLogo.png" width="285" height="62" alt="拉勾招聘" /></a>
             <div id="cloud_s"><img src="/merchant/style/images/cloud_s.png" width="81" height="52" alt="cloud" /></div>
             <div id="cloud_m"><img src="/merchant/style/images/cloud_m.png" width="136" height="95"  alt="cloud" /></div>
         </div>

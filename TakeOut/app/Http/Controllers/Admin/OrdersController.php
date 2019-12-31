@@ -161,13 +161,13 @@ class OrdersController extends Controller
     //订单详情
     public function detail($id){
         //查询订单编号及收货人的信息（不是会员的信息）
-        $orders_msg = Orders::from( "Orders as o" )
+        $orders_msg = Orders::from( "orders as o" )
             ->join("member_msg as msg","o.msg_id",'=','msg.id')
             ->where("o.id",$id)
             ->select("orders_num",'msg.*')
             ->get();
         //查询订单中的商品
-        $menu_msg = Orders::from( "Orders as o" )
+        $menu_msg = Orders::from( "orders as o" )
             ->join("orders_menu as om","o.id",'=','om.oid')
             ->join("menu as u","om.uid",'=','u.id')
             ->where("o.id",$id)
@@ -272,14 +272,14 @@ class OrdersController extends Controller
 
         //查询订单总的商品种类数
         foreach( $data as $k => $v ){
-            $data[$k]['orders_menu_num'] = Orders::from("Orders as o")
+            $data[$k]['orders_menu_num'] = Orders::from("orders as o")
                 ->join("orders_menu as om",'o.id','=','om.oid')
                 ->where("o.id",$v->id)
                 ->count("om.id");
         }
         //查询商品的名称（最多1个）
         foreach( $data as $k => $v ){
-             $menu_name = Orders::from("Orders as o")
+             $menu_name = Orders::from("orders as o")
                 ->join("orders_menu as om",'o.id','=','om.oid')
                 ->join("menu as u",'om.uid','=','u.id')
                 ->where("o.id",$v->id)
@@ -321,7 +321,7 @@ class OrdersController extends Controller
             ->select('menu_name','price','num','u.id')
             ->get();
         //查询订单总的商品种类数
-        $data['orders_menu_num'] = Orders::from("Orders as o")
+        $data['orders_menu_num'] = Orders::from("orders as o")
                 ->join("orders_menu as om",'o.id','=','om.oid')
                 ->where("o.id",$id)
                 ->count("om.id");

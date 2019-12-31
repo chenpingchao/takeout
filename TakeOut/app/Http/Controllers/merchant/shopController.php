@@ -10,6 +10,7 @@ use App\MenuComment;
 use App\Shop;
 use App\MenuCate;
 use App\ShopCate;
+use App\Tg;
 use http\Env\Response;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -124,13 +125,13 @@ class shopController extends Controller
         $menu = Menu::where('sid',$sid) -> get();
 
         //店铺的团购
-//        $tg =
+        $tg =  Tg::where('sid',$sid) -> git();
         //菜品的分类
         $menu_cate = MenuCate::where('sid',$sid) -> get();
 
         //查询店铺留言
         $guestBook = Guestbook::where( 'sid',$sid ) ->get();
-        return view('merchant.shop.shopDetail',compact('detail','menu','sid','guestBook','menu_cate') );
+        return view('merchant.shop.shopDetail',compact('detail','menu','sid','guestBook','menu_cate','tg') );
     }
 
     //店铺修改信息
@@ -461,7 +462,7 @@ class shopController extends Controller
         }
     }
 
-    //团购
+    //添加团购
     public function addTuan($sid){
         if(\request() -> isMethod('post')){
 
@@ -473,7 +474,8 @@ class shopController extends Controller
                 return response()-> json(['status'=>'error','msg'=> '添加失败']);
             }
         }else{
-            return view('merchant.shop.addMenuCate',compact('s_id'));
+            $menu = Menu::where('sid',$sid )->get();
+            return view('merchant.tuan.addTuan',compact('sid','menu') );
         }
     }
 

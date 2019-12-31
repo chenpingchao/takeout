@@ -5,7 +5,7 @@ Route::namespace('merchant') -> group(function(){
     Route::prefix('merchant') -> group(function(){
 
 
-        Route::any('login','loginController@Login') -> name('merchant.login'); //登录
+        Route::any('login','loginController@login') -> name('merchant.login'); //登录
         Route::any('logout','loginController@logout') -> name('merchant.logout'); //登出
         Route::get('geetest/{id?}','loginController@geetest') -> name('merchant.geetest'); //行为验证码的生成
 
@@ -48,7 +48,8 @@ Route::namespace('merchant') -> group(function(){
                 Route::any('deleteMenuCate/{mc_id}','shopController@deleteMenuCate') -> name('merchant.shop.deleteMenuCate');//显示及更改菜品分类
                 Route::any('menuCateActive/{mc_id}/{active}','shopController@menuCateActive') -> name('merchant.shop.menuCateActive');//显示及更改菜品分类
 
-                Route::any('addTuan/{sid}','shopController@addTuan') -> name('merchant.shop.addTuan');//显示及更改菜品分类
+                Route::any('addTuan/{sid}','shopController@addTuan') -> name('merchant.shop.addTuan');//添加团购
+                Route::any('tuan/{sid}','shopController@addTuan') -> name('merchant.shop.tuan');//显示及更改团购
 
             });
 

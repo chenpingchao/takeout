@@ -281,8 +281,8 @@ avatar.uploadComplate = function( data ){
 
 			</div> <!-- end #Member -->
 			<div class="clear"></div>
-{{--	{{--		团购--}}{{--
-			<div id="Category" style="margin-top:40px;">
+			{{--		团购--}}
+			<div id="tg" style="margin-top:40px;">
 
 				<dl class="c_section c_member">
 					<dt>
@@ -291,19 +291,19 @@ avatar.uploadComplate = function( data ){
 					</dt>
 
 					<dd style="padding-top:2px;">
-						@forelse($menu_cate as $v)
+						@forelse($tg as $v)
 							@if($v -> active ==1 )
-								<a title="团购礼包" class="tuan" href="{{route('merchant.shop.menuCate',['mc_id'=>$v->id])}}" >
+								<a title="团购礼包" class="tuan" href="{{route('merchant.shop.tg_detail',['mc_id'=>$v->id])}}" >
 									{{$v-> mc_name}}
 								</a>
 							@else
-								<a title="团购礼包" class="tuan mc_unactive" href="{{route('merchant.shop.menuCate',['mc_id'=>$v->id])}}" >
+								<a title="团购礼包" class="tuan mc_unactive" href="{{route('merchant.shop.tg_detail',['mc_id'=>$v->id])}}" >
 									{{$v-> mc_name}}
 								</a>
 							@endif
 						@empty
 							<div class="member_info">
-								<div class="m_intro" style="text-align: center;font-size: 17px;">你可以创建一个限时闪购的礼包来吸引用户</div>
+								<div class="m_intro" style="text-align: center;font-size: 17px;">你可以创建一个团购购的礼包来吸引用户</div>
 							</div>
 						@endforelse
 					</dd>
@@ -312,7 +312,7 @@ avatar.uploadComplate = function( data ){
 
 			</div> <!-- end #Member -->
 			<div class="clear"></div>
-			--}}{{--			闪购--}}{{--
+			{{--			闪购--}}{{--
 			<div id="Category" style="margin-top:40px;">
 
 				<dl class="c_section c_member">
@@ -443,7 +443,16 @@ avatar.uploadComplate = function( data ){
             content:[url]
         })
     }
-
+	//添加商品分类弹层
+	$('.add_cate').click(function(){
+		layer.open({
+			type:2,
+			title:'添加分类',
+			area:['400px','250px'],
+			content:['{{route('merchant.shop.addMenuCate',['s_id'=> $detail -> id])}}']
+		});
+		return false;
+	})
     //修改商品分类信息弹层
 	$('.mc_name').click(function(){
 		console.log($(this).attr('href'));
@@ -455,16 +464,8 @@ avatar.uploadComplate = function( data ){
         })
 		return false;
     });
-    //添加商品分类弹层
-   	$('.add_cate').click(function(){
-		layer.open({
-			type:2,
-			title:'添加分类',
-			area:['400px','250px'],
-			content:['{{route('merchant.shop.addMenuCate',['s_id'=> $detail -> id])}}']
-		});
-		return false;
-	})
+
+
 
 	//添加团购礼包弹层
 	$('.add_tuan').click(function(){
@@ -476,6 +477,17 @@ avatar.uploadComplate = function( data ){
 		});
 		return false;
 	})
+	//修改商品分类信息弹层
+	$('.tuan').click(function(){
+		console.log($(this).attr('href'));
+		layer.open({
+			type:2,
+			title:'修改分类',
+			area:['400px','250px'],
+			content:[$(this).attr('href')]
+		})
+		return false;
+	});
 
 
 </script>

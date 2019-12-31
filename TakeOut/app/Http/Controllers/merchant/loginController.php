@@ -11,7 +11,7 @@ class loginController extends Controller
 //登录模块
 
     //后台登录的页面
-    public function Login(){
+    public function login(){
         if( request() -> ajax() ){
             $this ->validate(request(),[
                 'name' => 'bail|required',
