@@ -288,31 +288,31 @@ avatar.uploadComplate = function( data ){
 
 			</div> <!-- end #Member -->
 			<div class="clear"></div>
-
-			<div id="Category" style="margin-top:40px;">
+			
+			<div id="tg" style="margin-top:40px;">
 
 				<dl class="c_section c_member">
 					<dt>
-						<h2><em></em>限时闪购 </h2>
-						<a  class="add_cate">+</a>
+						<h2><em></em>团购礼包 </h2>
+						<a  class="add_tuan">+</a>
 					</dt>
 
 					<dd style="padding-top:2px;">
-						<?php $__empty_1 = true; $__currentLoopData = $menu_cate; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
+						<?php $__empty_1 = true; $__currentLoopData = $tg; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
 							<?php if($v -> active ==1 ): ?>
-								<a title="闪购礼包" class="mc_name" href="<?php echo e(route('merchant.shop.menuCate',['mc_id'=>$v->id])); ?>" >
-									<?php echo e($v-> mc_name); ?>
+								<a title="团购礼包" class="tuan" href="<?php echo e(route('merchant.shop.tuan',['mc_id'=>$v->id])); ?>" >
+									<?php echo e($v-> name); ?>
 
 								</a>
 							<?php else: ?>
-								<a title="闪购礼包" class="mc_name mc_unactive" href="<?php echo e(route('merchant.shop.menuCate',['mc_id'=>$v->id])); ?>" >
-									<?php echo e($v-> mc_name); ?>
+								<a title="团购礼包" class="tuan mc_unactive" href="<?php echo e(route('merchant.shop.tuan',['mc_id'=>$v->id])); ?>" >
+									<?php echo e($v-> name); ?>
 
 								</a>
 							<?php endif; ?>
 						<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
 							<div class="member_info">
-								<div class="m_intro" style="text-align: center;font-size: 17px;">你可以创建一个限时闪购的礼包来吸引用户</div>
+								<div class="m_intro" style="text-align: center;font-size: 17px;">你可以创建一个团购购的礼包来吸引用户</div>
 							</div>
 						<?php endif; ?>
 					</dd>
@@ -320,6 +320,8 @@ avatar.uploadComplate = function( data ){
 				</dl>
 
 			</div> <!-- end #Member -->
+			<div class="clear"></div>
+			
 			<div class="clear"></div>
 			
 			<div id="GuestBook" style="margin-top:40px;">
@@ -421,7 +423,16 @@ avatar.uploadComplate = function( data ){
             content:[url]
         })
     }
-
+	//添加商品分类弹层
+	$('.add_cate').click(function(){
+		layer.open({
+			type:2,
+			title:'添加分类',
+			area:['400px','250px'],
+			content:['<?php echo e(route('merchant.shop.addMenuCate',['s_id'=> $detail -> id])); ?>']
+		});
+		return false;
+	})
     //修改商品分类信息弹层
 	$('.mc_name').click(function(){
 		console.log($(this).attr('href'));
@@ -433,16 +444,30 @@ avatar.uploadComplate = function( data ){
         })
 		return false;
     });
-    //添加商品分类弹层
-   	$('.add_cate').click(function(){
+
+
+
+	//添加团购礼包弹层
+	$('.add_tuan').click(function(){
 		layer.open({
 			type:2,
 			title:'添加分类',
-			area:['400px','250px'],
-			content:['<?php echo e(route('merchant.shop.addMenuCate',['s_id'=> $detail -> id])); ?>']
+			area:['600px','600px'],
+			content:['<?php echo e(route('merchant.shop.addTuan',['s_id'=> $detail -> id])); ?>']
 		});
 		return false;
 	})
+	//修改团购信息弹层
+	$('.tuan').click(function(){
+		console.log($(this).attr('href'));
+		layer.open({
+			type:2,
+			title:'修改礼包',
+			area:['600px','600px'],
+			content:[$(this).attr('href')]
+		})
+		return false;
+	});
 
 
 </script>

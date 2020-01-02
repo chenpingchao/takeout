@@ -11,6 +11,7 @@ use App\Shop;
 use App\MenuCate;
 use App\ShopCate;
 use App\Tg;
+use App\TgMenu;
 use http\Env\Response;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -125,7 +126,7 @@ class shopController extends Controller
         $menu = Menu::where('sid',$sid) -> get();
 
         //店铺的团购
-        $tg =  Tg::where('sid',$sid) -> git();
+        $tg =  Tg::where('sid',$sid) -> get();
         //菜品的分类
         $menu_cate = MenuCate::where('sid',$sid) -> get();
 
@@ -465,19 +466,165 @@ class shopController extends Controller
     //添加团购
     public function addTuan($sid){
         if(\request() -> isMethod('post')){
+            //表单验证
+            $this -> validate(request(),[
+                "name" => 'bail|required|between:2,18',
+                "num" => 'bail|required|numeric|between:2,100',
+                "ring" => 'bail|required|numeric|min:2',
+                "price" => 'bail|required|numeric|min:0',
+                "start_time" => 'bail|required',
+                "end_time" => 'bail|required',
+//                "detail" => "bail|regex://",
+            ],[
+                'name.required' => '必须有团购名',
+                'name.between' => '名字在2-18字之间',
+                'num.required' => '必须有成员数量',
+                'num.numeric' => '必须为数字',
+                'num.between' => '值在2到100之间',
+                'ring.required' => '必须有礼包数量',
+                'ring.numeric' => '必须为数字',
+                'ring.min' => '最小值为2',
+                'price.required' => '必须有价格',
+                'price.numeric' => '必须为数字',
+                'price.min' => '最小值为0',
+                'start_time.required' => '必须有开始时间',
+                'end_time.required' => '必须有借宿时间',
 
-            $data['sid'] = $sid;
-            $data['mc_name'] = request('cate');
-            if(MenuCate::insert($data)){
-                return response()->json(['status'=> 'ok', 'msg'=> '添加成功']);
+            ]);
+//            return \response() -> json(\request()->all());
+            $data['sid'] = \request('sid');
+            $data['name'] = trim( request('name') );
+            $data['num'] = trim( request('num') );
+            $data['ring'] = trim( request('ring') );
+            $data['price'] = trim( request('price') );
+            $data['start_time'] = strtotime( request('start_time') );
+            $data['end_time'] = strtotime(  \request('end_time') );
+            $data['detail'] = trim( request('tg_detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('tg_detail') );
+            $menu_id = \request('chk');
+            //获取商品原价
+            $data['or_price']= Menu::whereIn('id',$menu_id) -> sum('price');
+            DB::beginTransaction();
+            if($id = Tg::insertGetId($data)){
+                $m = count($menu_id);
+                $n = 0;
+                foreach($menu_id as $v){
+                    $data1['uid'] = $v;
+                    $data1['tg_id'] = $id;
+                    if( TgMenu::insert($data1)){
+                        $n++;
+                    }
+                }
+                if($n == $m){
+                    DB::commit();
+                    return \response() -> json(['status'=> 'ok' , 'msg' => '团购添加成功']);
+                }else{
+                    DB::rollBack();
+                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                }
             }else{
-                return response()-> json(['status'=>'error','msg'=> '添加失败']);
+                DB::rollBack();
+                return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
             }
+
         }else{
             $menu = Menu::where('sid',$sid )->get();
             return view('merchant.tuan.addTuan',compact('sid','menu') );
         }
     }
 
+    //显示加修改团购页面
+    public function tuan($tg_id){
+        if( \request() -> isMethod('post') ){
+            //修改团购信息  表单验证
+            $this -> validate(request(),[
+                "name" => 'bail|required|between:2,18',
+                "num" => 'bail|required|numeric|between:2,100',
+                "ring" => 'bail|required|numeric|min:2',
+                "price" => 'bail|required|numeric|min:0',
+                "start_time" => 'bail|required',
+                "end_time" => 'bail|required',
+//                "detail" => "bail|regex://",
+            ],[
+                'name.required' => '必须有团购名',
+                'name.between' => '名字在2-18字之间',
+                'num.required' => '必须有成员数量',
+                'num.numeric' => '必须为数字',
+                'num.between' => '值在2到100之间',
+                'ring.required' => '必须有礼包数量',
+                'ring.numeric' => '必须为数字',
+                'ring.min' => '最小值为2',
+                'price.required' => '必须有价格',
+                'price.numeric' => '必须为数字',
+                'price.min' => '最小值为0',
+                'start_time.required' => '必须有开始时间',
+                'end_time.required' => '必须有借宿时间',
+
+            ]);
+
+            $tg_id =  request('tg_id');
+            $data['name'] = trim( request('name') );
+            $data['num'] = trim( request('num') );
+            $data['ring'] = trim( request('ring') );
+            $data['price'] = trim( request('price') );
+            $data['start_time'] = strtotime( request('start_time') );
+            $data['end_time'] = strtotime(  \request('end_time') );
+            $data['detail'] = trim( request('tg_detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('tg_detail') );
+            $menu_id = \request('chk');
+            //获取商品原价
+            $data['or_price']= Menu::whereIn('id',$menu_id) -> sum('price');
+            DB::beginTransaction();
+            //修改团购信息
+            if( Tg::where('id',$tg_id) -> update($data) ){
+                $m = count($menu_id);
+                $n = 0;
+                //删除团购商品
+                if(TgMenu::where('tg_id',$tg_id) -> delete() ){
+                    //添加团购商品
+                    foreach($menu_id as $v){
+                        $data1['uid'] = $v;
+                        $data1['tg_id'] = $tg_id;
+                        if( TgMenu::insert($data1)){
+                            $n++;
+                        }
+                    }
+                }else{
+                    DB::rollBack();
+                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                }
+
+                if($n == $m){
+                    DB::commit();
+                    return \response() -> json(['status'=> 'ok' , 'msg' => '团购添加成功']);
+                }else{
+                    DB::rollBack();
+                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                }
+            }else{
+                DB::rollBack();
+                return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+            }
+        }else{
+            //显示团购页面
+            $tuan = Tg::find($tg_id);
+            $tg_menu_id = TgMenu::where('tg_id',$tuan->id) ->get();
+            foreach ($tg_menu_id as $k=> $v){
+                $menu_id[$k] =  $v->uid;
+            }
+//        dd($menu_id);
+            $menu = Menu::where('sid',session('sid')) ->get();
+            $tg_menu = Menu::find($menu_id);
+            return view('merchant.tuan.tuan',compact('tuan','tg_menu','menu','menu_id'));
+        }
+
+    }
+    //删除团购
+    public function tuanDelete(){
+
+    }
+
+    //激活团购
+    public function tuanAction(){
+
+    }
 
 }

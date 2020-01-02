@@ -49,7 +49,9 @@ Route::namespace('merchant') -> group(function(){
                 Route::any('menuCateActive/{mc_id}/{active}','shopController@menuCateActive') -> name('merchant.shop.menuCateActive');//显示及更改菜品分类
 
                 Route::any('addTuan/{sid}','shopController@addTuan') -> name('merchant.shop.addTuan');//添加团购
-                Route::any('tuan/{sid}','shopController@addTuan') -> name('merchant.shop.tuan');//显示及更改团购
+                Route::any('tuan/{tg_id}','shopController@tuan') -> name('merchant.shop.tuan');//显示及更改团购
+                Route::any('tuanDelete/{tg_id}','shopController@tuanDelete') -> name('merchant.shop.tuanDelete');//删除团购
+                Route::any('tuanActive/{tg_id}','shopController@tuanActive') -> name('merchant.shop.tuanActive');//激活团购
 
             });
 

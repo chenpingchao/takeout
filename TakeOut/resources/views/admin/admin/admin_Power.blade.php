@@ -22,80 +22,75 @@
         <script src="/admin/assets/laydate/laydate.js" type="text/javascript"></script>
 <title>管理权限</title>
 </head>
-
+<style>
+    table { table-layout: fixed;}
+    td { white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
+</style>
 <body>
  <div class="margin clearfix">
    <div class="border clearfix">
        <span class="l_f">
 		   <a href="javascript:ovid()" id="admin_role_add" class="btn btn-info"><i class="fa fa-plus"></i> 添加角色</a>
-		   <a href="javascript:ovid()" class="btn btn-danger"><i class="fa fa-trash"></i> 批量删除</a>
-		   <a href="{{route('bg.admin.Power_add')}}" id="Competence_add" class="btn btn-warning" title="添加权限">
-			   <i class="fa fa-plus"></i> 添加权限
-		   </a>
+		   <a href="{{route('bg.admin.Power_add')}}" id="Competence_add" class="btn btn-warning" title="添加权限"><i class="fa fa-plus"></i> 添加权限</a>
        </span>
        <span class="r_f">共：<b>5</b>类</span>
      </div>
-     <div class="compete_list">
-       <table id="sample-table-1" class="table table-striped table-bordered table-hover">
-		 <thead>
-			<tr>
-			  <th class="center"><label><input type="checkbox" class="ace"><span class="lbl"></span></label></th>
-			  <th>权限名称</th>
-			  <th>人数</th>
-              <th>用户名称</th>
-			  <th class="hidden-480">描述</th>             
-			  <th class="hidden-480">操作</th>
-             </tr>
-		    </thead>
-             <tbody>
-			  <tr>
-				<td class="center"><label><input type="checkbox" class="ace"><span class="lbl"></span></label></td>
-				<td>超级管理员</td>
-				<td>1</td>
-				<td class="hidden-480">admin</td>
-				<td>拥有至高无上的权利,操作系统的所有权限</td>
-				<td>
-                 <a title="编辑" onclick="Competence_modify('560')" href="javascript:;"  class="btn btn-xs btn-info" ><i class="fa fa-edit bigger-120"></i></a>        
-                 <a title="删除" href="javascript:;"  onclick="Competence_del(this,'1')" class="btn btn-xs btn-warning" ><i class="fa fa-trash  bigger-120"></i></a>
-				</td>
-			   </tr>
-               <tr>
-				<td class="center"><label><input type="checkbox" class="ace"><span class="lbl"></span></label></td>
-				<td>普通管理员</td>
-				<td>3</td>
-				<td class="hidden-480">admin123 , 张小泉 ,克雷鲍</td>
-				<td>拥有网站的系统大部分使用权限，没有权限管理功能。</td>
-				<td>
-                 <a title="编辑" onclick="Competence_modify('561')" href="javascript:;"  class="btn btn-xs btn-info" ><i class="fa fa-edit bigger-120"></i></a>        
-                 <a title="删除" href="javascript:;"  onclick="Competence_del(this,'2')" class="btn btn-xs btn-warning" ><i class="fa fa-trash  bigger-120"></i></a>
-				</td>
-			   </tr>	
-               <tr>
-				<td class="center"><label><input type="checkbox" class="ace"><span class="lbl"></span></label></td>
-				<td>编辑管理员</td>
-				<td>5</td>
-				<td class="hidden-480">admin345,stysty,adminstyle,admin45678,admin123455</td>
-				<td>拥有部分权限，主要进行编辑功能，无边界订单功能，权限分配功能。</td>
-				<td>
-                 <a title="编辑" onclick="Competence_modify('562')" href="javascript:;"  class="btn btn-xs btn-info" ><i class="fa fa-edit bigger-120"></i></a>        
-                 <a title="删除" href="javascript:;"  onclick="Competence_del(this,'3')" class="btn btn-xs btn-warning" ><i class="fa fa-trash  bigger-120"></i></a>
-				</td>
-			   </tr>												
-		      </tbody>
-	        </table>
+     <div class="Guestbook_list">
+		 <form action="" method="post" id="deletes_form">
+		 {{csrf_field()}}
+		 <!-- 列表 -->
+			 <table class="table table-striped table-bordered table-hover" id="sample-table">
+				 <thead>
+				 <tr>
+					 <th width="5%">ID</th>
+					 <th width="10%">角色名称</th>
+					 <th width="30%">拥有成员</th>
+					 <th width="30%">拥有权限</th>
+					 <th width="25%">操作</th>
+				 </tr>
+				 </thead>
+				 <tbody>
+				 @forelse($roles as $key=>$role)
+					 <tr>
+						 <td>
+							 {{$key+$roles->firstItem()}}
+						 </td>
+						 <td>
+							 {{$role->role_name}}
+						 </td>
+						 <td>
+							 @forelse($role->members as $member)
+								 {{$member->username}} &nbsp;&nbsp;&nbsp;
+							 @empty
+								 暂时没有所属成员
+							 @endforelse
+						 </td>
+						 <td>
+							 @forelse($role->permissions as $permission)
+								 {{$permission->display_name}} &nbsp;&nbsp;&nbsp;
+							 @empty
+								 暂时没有所属权限
+							 @endforelse
+						 </td>
+
+						 <td>
+							 <a href="{{route('bg.admin.ad_Role_allot',['roleId'=>$role->id])}}" class="tablelink assign_member">分配成员 </a> |
+							 <a href="{{route('bg.admin.ad_Permission_allot',['roleId'=>$role->id])}}" class="tablelink assign_permission">分配权限 </a> |
+							 <a href="{{route('bg.admin.ad_Role_del',['roleId'=>$role->id])}}" class="tablelink admin_Role_del">删除角色 </a>
+						 </td>
+					 </tr>
+				 @empty
+					 <tr>
+						 <td colspan="4">
+							 <h1>没有找到相关的记录</h1>
+						 </td>
+					 </tr>
+				 @endforelse
+				 </tbody>
+			 </table>
+		 </form>
      </div>
  </div>
- <!--添加权限样式-->
- <!-- <div id="Competence_add_style" style="display:none">
-   <div class="Competence_add_style">
-     <div class="form-group"><label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 权限名称 </label>
-       <div class="col-sm-9"><input type="text" id="form-field-1" placeholder=""  name="权限名称" class="col-xs-10 col-sm-5"></div>
-	</div>
-     <div class="form-group"><label class="col-sm-2 control-label no-padding-right" for="form-field-1"> 权限说明 </label>
-       <div class="col-sm-9"><textarea name="权限说明" class="form-control" id="form_textarea" placeholder="" onkeyup="checkLength(this);"></textarea><span class="wordage">剩余字数：<span id="sy" style="color:Red;">200</span>字</span></div>
-	</div>
-   </div>
-  </div>-->
 </body>
 </html>
 <script type="text/javascript">
@@ -109,55 +104,36 @@
 			content: ['{{route('bg.admin.ad_Role')}}','no'] ,
 		});
 	})
+	//角色分配管理员
+	$('.assign_member').click(function(){
+		parent.layer.open({
+			title:'分配成员',
+			type:2,
+			area:['420px','420px'],
+			content:[$(this).attr('href')]
+		});
+		return false;
+	});
+	//删除角色(角色表/管理员角色关系表/角色权限关系表)
+	$('.admin_Role_del').click(function(){
+		var me = this;
+		parent.layer.confirm('确定要删除吗?',{icon:3,title:'删除提示'},function(){
+			$.get($(me).attr('href'),function(data){
+				if (data.status==='ok'){
+					parent.layer.msg(data.msg,{icon:6,shade:[0.6],time:1000},function () {
+						top.iframe.location.reload();
+						location = '{{route('bg.admin.Power')}}';
+					});
+				} else{
+					parent.layer.msg(data.msg,{icon:5,shade:[0.6]})
+				}
+			},'json');
+		});
+		//阻止超链接的默认行为
+		return false;
+	});
 </script>
 <script type="text/javascript">
-/*添加权限*/
-/* $('#Competence_add').on('click', function(){
-	 layer.open({
-        type: 1,
-        title: '添加权限',
-		maxmin: true,
-		shadeClose: false,
-        area : ['800px' , ''],
-        content:$('#Competence_add_style'),
-		btn:['提交','取消'],
-		yes:function(index,layero){
-		 var num=0;
-		 var str="";
-     $(".col-sm-9 input[type$='text'],#form_textarea").each(function(n){
-          if($(this).val()=="")
-          {
-
-			   layer.alert(str+=""+$(this).attr("name")+"不能为空！\r\n",{
-                title: '提示框',
-				icon:0,
-          });
-		    num++;
-            return false;
-          }
-		 });
-		  if(num>0){  return false;}
-          else{
-			  layer.alert('添加成功！',{
-               title: '提示框',
-			icon:1,
-			  });
-			   layer.close(index);
-		  }
-		}
-    });
- });
- /*权限-删除*/
-function Competence_del(obj,id){
-	layer.confirm('确认要删除吗？',function(index){
-		$(obj).parents("tr").remove();
-		layer.msg('已删除!',{icon:1,time:1000});
-	});
-}
-/*修改权限*/
-function Competence_modify(id){
-		window.location.href ="Competence.blade.php?="+id;
-};	
 /*字数限制*/
 function checkLength(which) {
 	var maxChars = 200; //

@@ -27,7 +27,7 @@
 
 <body>
 <div class="Competence_add_style clearfix">
-    <div class="left_Competence_add">
+    <div style="width:420px" class="left_Competence_add">
         <div class="title_name"><span style="margin-left:130px;">添加管理角色</span></div>
         <form action="" method="post" id="form1">
             {{csrf_field()}}
@@ -72,6 +72,7 @@
             if (data.status==='ok'){
                 parent.layer.msg(data.msg,{icon:6,shade:[0.6]},function(){
                     // parent.location=data.url;
+                    top.iframe.location.reload();
                     parent.layer.closeAll();
                 })
             } else{

@@ -67,5 +67,8 @@ class Kernel extends HttpKernel
         //商家后台登录限制中间件
         'Merchant' => \App\Http\Middleware\MerchantLogin::class,
 
+        //RBAC中间件
+        'rbac' => \App\Http\Middleware\RbacMiddleware::class,
+
     ];
 }

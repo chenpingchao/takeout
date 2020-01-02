@@ -293,12 +293,12 @@ avatar.uploadComplate = function( data ){
 					<dd style="padding-top:2px;">
 						@forelse($tg as $v)
 							@if($v -> active ==1 )
-								<a title="团购礼包" class="tuan" href="{{route('merchant.shop.tg_detail',['mc_id'=>$v->id])}}" >
-									{{$v-> mc_name}}
+								<a title="团购礼包" class="tuan" href="{{route('merchant.shop.tuan',['mc_id'=>$v->id])}}" >
+									{{$v-> name}}
 								</a>
 							@else
-								<a title="团购礼包" class="tuan mc_unactive" href="{{route('merchant.shop.tg_detail',['mc_id'=>$v->id])}}" >
-									{{$v-> mc_name}}
+								<a title="团购礼包" class="tuan mc_unactive" href="{{route('merchant.shop.tuan',['mc_id'=>$v->id])}}" >
+									{{$v-> name}}
 								</a>
 							@endif
 						@empty
@@ -318,7 +318,7 @@ avatar.uploadComplate = function( data ){
 				<dl class="c_section c_member">
 					<dt>
 						<h2><em></em>限时闪购 </h2>
-						<a  class="add_cate">+</a>
+						<a  class="add_shan">+</a>
 					</dt>
 
 					<dd style="padding-top:2px;">
@@ -472,18 +472,18 @@ avatar.uploadComplate = function( data ){
 		layer.open({
 			type:2,
 			title:'添加分类',
-			area:['400px','250px'],
+			area:['600px','600px'],
 			content:['{{route('merchant.shop.addTuan',['s_id'=> $detail -> id])}}']
 		});
 		return false;
 	})
-	//修改商品分类信息弹层
+	//修改团购信息弹层
 	$('.tuan').click(function(){
 		console.log($(this).attr('href'));
 		layer.open({
 			type:2,
-			title:'修改分类',
-			area:['400px','250px'],
+			title:'修改礼包',
+			area:['600px','600px'],
 			content:[$(this).attr('href')]
 		})
 		return false;

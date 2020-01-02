@@ -140,7 +140,7 @@
                     rangelength: [6,16],
                     equalTo:"#pwd"
                 },
-                mobile :{
+                mobile:{
                     required :true,
                     mobile:true,
                     remote:{

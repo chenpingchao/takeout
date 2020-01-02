@@ -322,13 +322,7 @@ function member_start(obj,id){
 function member_edit(title,url,id,w,h){
 	layer_show(title,url,w,h);
 }
-/*管理员-删除
-function member_del(obj,id){
-	layer.confirm('确认要删除吗？',function(index){
-		$(obj).parents("tr").remove();
-		layer.msg('已删除!',{icon:1,time:1000});
-	});
-}*/
+
 /*添加管理员*/
 $('#administrator_add').on('click', function(){
 	layer.open({
@@ -339,24 +333,6 @@ $('#administrator_add').on('click', function(){
 	content: $('#add_administrator_style'),
 	});
 })
-//表单验证提交
-// $("#form-admin-add").Validform({
-// 		 tiptype:2,
-// 		callback:function(data){
-// 		//form[0].submit();
-// 		if(data.status==1){
-//                 layer.msg(data.info, {icon: data.status,time: 1000}, function(){
-//                     location.reload();//刷新页面
-//                     });
-//             }
-//             else{
-//                 layer.msg(data.info, {icon: data.status,time: 3000});
-//             }
-// 			var index =parent.$("#iframe").attr("src");
-// 			parent.layer.close(index);
-// 			//
-// 		}
-// 	});
 
 //显示添加是否成功信息
 if('{{session('status')}}' === 'ok'){

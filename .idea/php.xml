@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/TakeOut/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/myclabs/php-enum" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/gregwar/captcha" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpoffice/phpexcel" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/mockery/mockery" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/jeremeamia/superclosure" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/laravel/tinker" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/laravel/framework" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/fzaninotto/faker" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/hamcrest/hamcrest-php" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/khanamiryan/qrcode-detector-decoder" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/psy/psysh" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/debug" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/intervention/image" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/vlucas/phpdotenv" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/endroid/qr-code" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-php72" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/thanks" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/zizaco/entrust" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/kylekatarnls/update-helper" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/fideloper/proxy" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/filp/whoops" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/jakub-onderka/php-console-highlighter" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/erusev/parsedown" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/mtdowling/cron-expression" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/jakub-onderka/php-console-color" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/dnoegel/php-xdg-base-dir" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/maatwebsite/excel" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/composer" />
+      <path value="$PROJECT_DIR$/TakeOut/vendor/egulias/email-validator" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/TakeOut/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
