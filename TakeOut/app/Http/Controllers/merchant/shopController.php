@@ -618,8 +618,22 @@ class shopController extends Controller
 
     }
     //删除团购
-    public function tuanDelete(){
-
+    public function tuanDelete($tg_id){
+        DB::beginTransaction();  //开启事物处理
+        //删除团购
+        if( Tg::destroy( $tg_id ) ){
+            //删除团购商品
+            if(TgMenu::where('tg_id',$tg_id) -> delete() ){
+                DB::commit();
+                return response()->json(['status'=> 'ok', 'msg'=> '删除成功']);
+            }else{
+                DB::rollback();
+                return response()-> json(['status'=>'error','msg'=> '删除失败']);
+            }
+        }else{
+            DB::rollback();
+            return response()-> json(['status'=>'error','msg'=> '删除失败']);
+        }
     }
 
     //激活团购

@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a81c2ed-085f-4fcd-8a93-1859263cf4cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan/tuan.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/public/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/public/css/public.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/resources/views/merchant/login/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/resources/views/merchant/login/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/resources/views/merchant/shop/shopDetail.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/resources/views/merchant/shop/shopDetail.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan/addTuan.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan/addTuan.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/storage/framework/sessions/7sTfjohs5OCCOGnYajCYGNAmv1INSlgrhfsoEVlL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/storage/framework/sessions/C8lJtHnyKoDCkIqqFC5EHMZ4FE2WnJGdqmxkvsNO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/storage/framework/views/2048341ec5ba80a64d208cbe8ff72bca94fa6c7f.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/storage/framework/views/2048341ec5ba80a64d208cbe8ff72bca94fa6c7f.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TakeOut/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/storage/logs/laravel.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/public/css/public.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="139" column="17" lean-forward="true" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+            <state relative-caret-position="4031">
+              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -40,17 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan/tuan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4581#6106#0#HTML" />
-                <element signature="e#6142#6480#0#HTML" />
-                <element signature="e#6501#6805#0#HTML" />
-              </folding>
+            <state relative-caret-position="2523">
+              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -58,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/shop/menuCate.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+            <state relative-caret-position="1769">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -67,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="52" column="119" lean-forward="true" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
+            <state relative-caret-position="1508">
+              <caret line="52" column="119" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
             </state>
           </provider>
         </entry>
@@ -76,10 +58,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="587" column="25" lean-forward="true" selection-start-line="587" selection-start-column="25" selection-end-line="587" selection-end-column="25" />
+            <state relative-caret-position="559">
+              <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
               <folding>
                 <element signature="e#49#66#0#PHP" expanded="true" />
+                <element signature="e#17579#20433#0#PHP" />
+                <element signature="e#20455#23929#0#PHP" />
               </folding>
             </state>
           </provider>
@@ -223,10 +207,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="183" />
-    <option name="y" value="66" />
+    <option name="x" value="156" />
+    <option name="y" value="13" />
     <option name="width" value="1308" />
-    <option name="height" value="878" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -410,6 +394,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -455,18 +440,19 @@
       <updated>1577753234990</updated>
       <workItem from="1577753236285" duration="7531000" />
       <workItem from="1577926496057" duration="551000" />
-      <workItem from="1577930620543" duration="21608000" />
+      <workItem from="1577930620543" duration="21921000" />
+      <workItem from="1578016134469" duration="1020000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29690000" />
+    <option name="totallyTimeSpent" value="31023000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="183" y="66" width="1308" height="878" extended-state="0" />
+    <frame x="-14" y="4" width="1308" height="872" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16346154" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16586539" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -543,47 +529,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/public/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="139" column="17" lean-forward="true" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+        <state relative-caret-position="4031">
+          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan/tuan.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="87" column="24" lean-forward="true" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#td#1;n#tr#1;n#table#0;n#dl#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4581#6106#0#HTML" />
-            <element signature="e#6142#6480#0#HTML" />
-            <element signature="e#6501#6805#0#HTML" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="52" column="119" lean-forward="true" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
+        <state relative-caret-position="2523">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/shop/menuCate.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="1769">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="52" column="119" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="587" column="25" lean-forward="true" selection-start-line="587" selection-start-column="25" selection-end-line="587" selection-end-column="25" />
+        <state relative-caret-position="559">
+          <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
           <folding>
             <element signature="e#49#66#0#PHP" expanded="true" />
+            <element signature="e#17579#20433#0#PHP" />
+            <element signature="e#20455#23929#0#PHP" />
           </folding>
         </state>
       </provider>
