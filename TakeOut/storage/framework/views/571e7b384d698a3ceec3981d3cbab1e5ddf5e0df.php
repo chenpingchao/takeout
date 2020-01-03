@@ -20,10 +20,7 @@
         .xuhao{
             width:50px;
         }
-        .box{
-            width:400px;
-            margin: 0 auto;
-        }
+
         input.error { border: 1px solid #EA5200;background: #ffdbb3;}
 
         div.error {
@@ -43,7 +40,7 @@
 </head>
 <body>
 <form action="" id="form" method="post">
-    <div class='box'>
+    <div class='add_box'>
         <input type="hidden" name="sid" value="<?php echo e($sid); ?>" >
         <?php echo e(csrf_field()); ?>
 
@@ -59,7 +56,7 @@
                 <div class="image num"></div>
             </dd>
             <dd>
-                <label for="ring">团购数量：</label>
+                <label for="ring">礼包数量：</label>
                 <input type="text" name="ring" class="add-tuan-input" id="ring" placeholder="请填写团购礼包的数量">
                 <div class="image ring"></div>
             </dd>

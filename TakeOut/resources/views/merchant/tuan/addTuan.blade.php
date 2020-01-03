@@ -87,7 +87,7 @@
                     </tr>
                     @forelse($menu as $k=> $v)
                     <tr>
-                        <td><input type="checkadd_box" name="chk[]" value="{{$v->id}}"></td>
+                        <td><input type="checkbox" name="chk[]" value="{{$v->id}}"></td>
                         <td class='xuhao'>{{$k+1}}</td>
                         <td><img style="width:50px;" src="/{{$v -> image_dir}}100_{{$v-> image}}" alt="{{$v->menu_name}}"></td>
                         <td>{{$v -> menu_name}}</td>

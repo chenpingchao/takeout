@@ -65,10 +65,12 @@ body .demo-class .layui-layer-btn a.layui-layer-btn1 {background:#fff;color:#000
 .add_box{
     width:400px;
     margin: 0 auto;
+
+}
+.add_box_1{
     display: flex;
     justify-content:center;
 }
-
 
 .mc_name,.shan,.tuan{
     float:left;
@@ -98,7 +100,7 @@ body .demo-class .layui-layer-btn a.layui-layer-btn1 {background:#fff;color:#000
 }
 
 .buttom{
-    display:bolck;
+    display: block;
     margin:20px 10px 0 10px;
     width:60px;
     height:25px;
@@ -146,4 +148,10 @@ body .demo-class .layui-layer-btn a.layui-layer-btn1 {background:#fff;color:#000
     font-size: 20px;
     color:#888;
 }
+.detail-1{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+
 

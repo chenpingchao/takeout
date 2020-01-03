@@ -39,7 +39,7 @@
 
 </head>
 <body>
-    <div class="add_box">
+    <div id="show" class="add_box add_box_1">
         <dl class="tuan_detail">
             <dd>团购名称：{{$tuan -> name }}</dd>
             <dd>团购人数：{{$tuan -> num }}</dd>
@@ -70,14 +70,14 @@
                 @endforelse
             </table>
         </dl>
-        <div class='detail' style="height: 50px">
-            <div id="buttom">
+        <div class='detail' style="height: 50px;">
+            <div id="buttom" class="detail-1">
                 <input type="button" id='change'  class="buttom" value="修改">
                 <input type="button"  id="delete" class="buttom" value="删除">
-                @if($menu_cate -> active ==1)
-                    <input type="button" href="{{route('merchant.shop.menuCateActive',["mc_id"=>$menu_cate->id,"active"=>$menu_cate->active])}}" id="active" style="background:#0F0;"  class="buttom" value="激活">
+                @if($tuan -> active ==1)
+                    <input type="button" href="{{route('merchant.shop.tuanActive',["tg_id"=>$tuan->id,"active"=>$tuan->active])}}" id="active" style="background:#0F0;"  class="buttom" value="激活">
                 @else
-                    <input type="button" href="{{route('merchant.shop.menuCateActive',["mc_id"=>$menu_cate->id,"active"=>$menu_cate->active])}}" id="active"  style="background:#f00;color:#fff;"  class="buttom" value="禁用">
+                    <input type="button" href="{{route('merchant.shop.tuanActive',["tg_id"=>$tuan->id,"active"=>$tuan->active])}}" id="active"  style="background:#f00;color:#fff;"  class="buttom" value="禁用">
                 @endif
             </div>
         </div>
@@ -297,7 +297,7 @@
 
     //删除
     $('#delete').click(function(){
-        $.get('{{route('merchant.shop.deleteMenuCate',['mc_id'=> $menu_cate->id])}}','',function(data){
+        $.get('{{route('merchant.shop.tuanDelete',['tg_id'=> $tuan->id])}}','',function(data){
             if(data.status == 'ok'){
                 // alert('a');
                 parent.location.reload();
@@ -311,8 +311,8 @@
     $('#active').click(function(){
         me = $(this);
         $.get(me.attr('href'),'',function(data){
-            if(data.stats ==='ok'){
-                if(data.active ==1){
+            if(data.status === 'ok'){
+                if(data.active == 1 ){
                     //激活
                     me.val('激活').attr('style','background:#0F0;')
                 }else{
@@ -323,11 +323,18 @@
                 parent.location.reload();
                 me.attr('href',data.url)
             }else{
+                console.log('aa');
                 layer.msg(data.msg,{icon:5})
             }
         });
         return false;
     })
+
+    //由显示改为编辑
+    $('#change').click(function(){
+        $('#show').attr('style','display:none')
+        $('form').show();
+    });
 
 </script>
 </html>
