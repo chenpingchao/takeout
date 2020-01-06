@@ -94,7 +94,7 @@
         <dl>
             <dd style="display:flex;margin-bottom:10px;align-items:center;">
                 <label for="tg_detail" style="">闪购简介：</label>
-                <textarea name="tg_detail" cols="30" rows="3" class="add-tuan-input-other" id="tg_detail">请填写团购简介</textarea>
+                <textarea name="detail" cols="30" rows="3" class="add-tuan-input-other" id="tg_detail">请填写闪购简介</textarea>
             </dd>
             <dd>
                 <input type="submit" class="add-tuan-submit" value="添加闪购" >

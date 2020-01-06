@@ -274,8 +274,7 @@
         <!--case1-->
         <div class="menutab show">
           <div class="cont_padding">
-          <?php echo $menu_msg -> detail; ?>
-
+              <img src="<?php echo e($menu_msg -> detail); ?>" alt="">
           </div>
         </div>
         <!--case2-->

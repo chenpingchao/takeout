@@ -291,7 +291,6 @@ Author URI: http://www.deathghost.cn
                 $.get(me.attr('href'), '' , function(data){
                     if(data.stats === 'ok' ){
                         me.parent('table').remove();
-                        console.log('aa');
                         layer.msg('删除成功');
                     }else{
                         layer.msg('删除失败');

@@ -325,8 +325,9 @@ avatar.uploadComplate = function( data ){
 					<dd style="padding-top:2px;">
 						@forelse($sg as $v)
 							@if($v -> shan_active ==1 )
-								<a title="闪购礼包" class="shan" href="{{route('merchant.shop.shan',['sg_id'=>$v->id])}}" >
+	 							<a title="闪购礼包" class="shan" href="{{route('merchant.shop.shan',['sg_id'=>$v->id])}}" >
 									{{$v-> shan_name}}
+
 								</a>
 							@else
 								<a title="闪购礼包" class="shan mc_unactive" href="{{route('merchant.shop.shan',['sg_id'=>$v->id])}}" >
@@ -508,7 +509,7 @@ avatar.uploadComplate = function( data ){
         layer.open({
             type:2,
             title:'修改礼包',
-            area:['600px','600px'],
+            area:['600px','500px'],
             content:[$(this).attr('href')]
         })
         return false;

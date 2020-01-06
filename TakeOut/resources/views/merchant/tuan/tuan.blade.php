@@ -41,10 +41,10 @@
 <body>
     <div id="show" class="add_box add_box_1">
         <dl class="tuan_detail">
-            <dd>团购名称：{{$tuan -> tg_name }}</dd>
-            <dd>团购人数：{{$tuan -> tg_num }}</dd>
+            <dd>团购名称：{{$tuan -> name }}</dd>
+            <dd>团购人数：{{$tuan -> num }}</dd>
             <dd>礼包数量：{{$tuan -> ring }}</dd>
-            <dd>团购价格：{{$tuan -> tg_price }}</dd>
+            <dd>团购价格：{{$tuan -> price }}</dd>
             <dd>开始时间：{{date('Y-m-d H:i:s',$tuan -> start_time ) }}</dd>
             <dd>结束时间：{{date('Y-m-d H:i:s',$tuan -> end_time ) }}</dd>
             <dd>团购简介：{{$tuan -> detail }}</dd>
@@ -75,9 +75,9 @@
                 <input type="button" id='change'  class="buttom" value="修改">
                 <input type="button"  id="delete" class="buttom" value="删除">
                 @if($tuan -> active ==1)
-                    <input type="button" href="{{route('merchant.shop.tuanActive',["tg_id"=>$tuan->id,"active"=>$tuan->active])}}" id="active" style="background:#0F0;"  class="buttom" value="激活">
+                    <input type="button" href="{{route('merchant.shop.tuanActive',["sg_id"=>$tuan->id,"active"=>$tuan->active])}}" id="active" style="background:#0F0;"  class="buttom" value="激活">
                 @else
-                    <input type="button" href="{{route('merchant.shop.tuanActive',["tg_id"=>$tuan->id,"active"=>$tuan->active])}}" id="active"  style="background:#f00;color:#fff;"  class="buttom" value="禁用">
+                    <input type="button" href="{{route('merchant.shop.tuanActive',["sg_id"=>$tuan->id,"active"=>$tuan->active])}}" id="active"  style="background:#f00;color:#fff;"  class="buttom" value="禁用">
                 @endif
             </div>
         </div>

@@ -334,8 +334,9 @@ avatar.uploadComplate = function( data ){
 					<dd style="padding-top:2px;">
 						<?php $__empty_1 = true; $__currentLoopData = $sg; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
 							<?php if($v -> shan_active ==1 ): ?>
-								<a title="闪购礼包" class="shan" href="<?php echo e(route('merchant.shop.shan',['sg_id'=>$v->id])); ?>" >
+	 							<a title="闪购礼包" class="shan" href="<?php echo e(route('merchant.shop.shan',['sg_id'=>$v->id])); ?>" >
 									<?php echo e($v-> shan_name); ?>
+
 
 								</a>
 							<?php else: ?>
@@ -519,7 +520,7 @@ avatar.uploadComplate = function( data ){
         layer.open({
             type:2,
             title:'修改礼包',
-            area:['600px','600px'],
+            area:['600px','500px'],
             content:[$(this).attr('href')]
         })
         return false;

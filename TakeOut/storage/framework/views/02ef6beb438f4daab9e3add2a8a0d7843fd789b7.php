@@ -45,7 +45,7 @@
             <dd>团购人数：<?php echo e($shan -> shan_num); ?></dd>
 
             <dd>团购价格：<?php echo e($shan -> shan_price); ?></dd>
-            <dd>团购简介：<?php echo e($shan -> detail); ?></dd>
+            <dd>团购简介：<?php echo e($shan -> shan_detail); ?></dd>
             <table class='menu_list'>
                 <tr>
 
@@ -73,9 +73,9 @@
                 <input type="button" id='change'  class="buttom" value="修改">
                 <input type="button"  id="delete" class="buttom" value="删除">
                 <?php if($shan -> shan_active ==1): ?>
-                    <input type="button" href="<?php echo e(route('merchant.shop.shanActive',["sg_id"=>$shan->id,"active"=>$shan->active])); ?>" id="active" style="background:#0F0;"  class="buttom" value="激活">
+                    <input type="button" href="<?php echo e(route('merchant.shop.shanActive',["sg_id"=>$shan->id,"active"=>$shan->shan_active])); ?>" id="active" style="background:#0F0;"  class="buttom" value="激活">
                 <?php else: ?>
-                    <input type="button" href="<?php echo e(route('merchant.shop.shanActive',["sg_id"=>$shan->id,"active"=>$shan->active])); ?>" id="active"  style="background:#f00;color:#fff;"  class="buttom" value="禁用">
+                    <input type="button" href="<?php echo e(route('merchant.shop.shanActive',["sg_id"=>$shan->id,"active"=>$shan->shan_active])); ?>" id="active"  style="background:#f00;color:#fff;"  class="buttom" value="禁用">
                 <?php endif; ?>
             </div>
         </div>
@@ -88,18 +88,18 @@
             <dl>
                 <dd class='dd_input'>
                     <label for="shan_name">闪购名称：</label>
-                    <input type="text" name="name" class="add-shan-input" id="shan_name" placeholder="请输入团购大礼包的名称">
+                    <input type="text" name="name" class="add-shan-input" id="shan_name" placeholder="请输入团购大礼包的名称" value="<?php echo e($shan-> shan_name); ?>">
                     <div class="image name"></div>
                 </dd>
                 <dd class='dd_input'>
                     <label for="num">闪购数量：</label>
-                    <input type="text" name="num" class="add-shan-input" id="num" placeholder="每日闪购礼包数量">
+                    <input type="text" name="num" class="add-shan-input" id="num" placeholder="每日闪购礼包数量" value="<?php echo e($shan -> shan_num); ?>">
                     <div class="image num"></div>
                 </dd>
 
                 <dd>
                     <label for="price">闪购价格：</label>
-                    <input type="text" name="price"  class="add-shan-input" id="price" placeholder="请填写团购礼包的价格">
+                    <input type="text" name="price"  class="add-shan-input" id="price" placeholder="请填写闪购礼包的价格" value="<?php echo e($shan -> shan_price); ?>">
                     <div class="image price"></div>
                 </dd>
 
@@ -117,7 +117,7 @@
                     </tr>
                     <?php $__empty_1 = true; $__currentLoopData = $menu; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $k=> $v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
                         <tr>
-                            <td><input type="checkbox" name="chk[]" value="<?php echo e($v->id); ?>"></td>
+                            <td><input type="checkbox" name="chk[]" value="<?php echo e($v->id); ?>" <?php echo e(in_array($v->id,$menu_id) ? 'checked' : ''); ?>></td>
                             <td class='xuhao'><?php echo e($k+1); ?></td>
                             <td><img style="width:50px;" src="/<?php echo e($v -> image_dir); ?>100_<?php echo e($v-> image); ?>" alt="<?php echo e($v->menu_name); ?>"></td>
                             <td><?php echo e($v -> menu_name); ?></td>
@@ -136,7 +136,7 @@
             <dl>
                 <dd style="display:flex;margin-bottom:10px;align-items:center;">
                     <label for="sg_detail" style="">闪购简介：</label>
-                    <textarea name="sg_detail" cols="30" rows="3" class="add-shan-input-other" id="sg_detail">请填写团购简介</textarea>
+                    <textarea name="detail" cols="30" rows="3" class="add-shan-input-other" id="sg_detail"><?php echo e($shan -> shan_detail); ?></textarea>
                 </dd>
                 <dd>
                     <input type="submit" class="add-shan-submit" value="添加闪购" >

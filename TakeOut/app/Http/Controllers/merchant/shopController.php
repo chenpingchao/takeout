@@ -678,7 +678,7 @@ class shopController extends Controller
             $data['shan_name'] = trim( request('name') );
             $data['shan_num'] = trim( request('num') );
             $data['shan_price'] = trim( request('price') );
-            $data['shan_detail'] = trim( request('tg_detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('tg_detail') );
+            $data['shan_detail'] = trim( request('detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('detail') );
             $menu_id = \request('chk');
             //获取商品原价
 //            $data['or_price']= Menu::whereIn('id',$menu_id) -> sum('price');
@@ -695,14 +695,14 @@ class shopController extends Controller
                 }
                 if($n == $m){
                     DB::commit();
-                    return \response() -> json(['status'=> 'ok' , 'msg' => '团购添加成功']);
+                    return \response() -> json(['status'=> 'ok' , 'msg' => '闪购添加成功']);
                 }else{
                     DB::rollBack();
-                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                    return \response() -> json(['status'=> 'error' , 'msg' => '闪购添加失败']);
                 }
             }else{
                 DB::rollBack();
-                return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                return \response() -> json(['status'=> 'error' , 'msg' => '闪购添加失败']);
             }
 
         }else{
@@ -737,7 +737,7 @@ class shopController extends Controller
             $data['shan_name'] = trim( request('name') );
             $data['shan_num'] = trim( request('num') );
             $data['shan_price'] = trim( request('price') );
-            $data['shan_detail'] = trim( request('tg_detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('tg_detail') );
+            $data['shan_detail'] = trim( request('detail') ) =='请填写闪购简介' ? "这个闪购的简介不见了":trim( request('detail') );
             $menu_id = \request('chk');
             //获取商品原价
 //            $data['or_price']= Menu::whereIn('id',$menu_id) -> sum('price');
@@ -791,9 +791,9 @@ class shopController extends Controller
     public function shanDelete($sg_id){
         DB::beginTransaction();  //开启事物处理
         //删除团购
-        if( Tg::destroy( $tg_id ) ){
+        if( Sg::destroy( $sg_id ) ){
             //删除团购商品
-            if(TgMenu::where('tg_id',$tg_id) -> delete() ){
+            if(SgMenu::where('shan_id',$sg_id) -> delete() ){
                 DB::commit();
                 return response()->json(['status'=> 'ok', 'msg'=> '删除成功']);
             }else{
@@ -810,7 +810,7 @@ class shopController extends Controller
     public function shanAction($sg_id,$active){
         $active = $active == 1 ? 2 : 1;
         $msg = $active ==1 ? '激活' : '禁用';
-        if(Tg::where('id',$tg_id) -> update(['active'=> $active])) {
+        if(Sg::where('id',$sg_id) -> update(['shan_active'=> $active])) {
             return response()-> json(['status'=>'ok','active'=>$active,'msg'=> $msg.'成功']);
         }else{
             return response()-> json(['status'=>'error','active'=>$active,'msg'=> $msg.'失败']);
