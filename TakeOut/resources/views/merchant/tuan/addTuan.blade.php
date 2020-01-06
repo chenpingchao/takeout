@@ -182,26 +182,6 @@
         validClass: "ok",
     });
 
-    //绑定时间插件
-    laydate.render({
-        elem:'#start_time',  //绑定input元素
-        type:'datetime',       //date(默认 )、 time 、   year、  month
-        value: new Date(), //默认值
-        min: '2017-8-11 12:30:00',  //最小可选日期
-        max: '2030-8-18 12:30:00',  //最大可选日期
-        calendar:true,  //显示公历节日
-        theme:'#056dae',  //主题颜色
-        showBottom: true //是否显示底部栏
-    })
-    laydate.render({
-        elem:'#end_time',  //绑定input元素
-        type:'datetime',       //date(默认 )、 time 、   year、  month
-        min: '2017-8-11 12:30:00',  //最小可选日期
-        max: '2030-8-18 12:30:00',  //最大可选日期
-        calendar:true,  //显示公历节日
-        theme:'#056dae',  //主题颜色
-        showBottom: true  //是否显示底部栏
-    })
 
 
 
@@ -250,6 +230,27 @@
 
         }
         return false;
+    })
+
+    //绑定时间插件
+    laydate.render({
+        elem:'#start_time',  //绑定input元素
+        type:'datetime',       //date(默认 )、 time 、   year、  month
+        value: new Date(), //默认值
+        min: '2017-8-11 12:30:00',  //最小可选日期
+        max: '2030-8-18 12:30:00',  //最大可选日期
+        calendar:true,  //显示公历节日
+        theme:'#056dae',  //主题颜色
+        showBottom: true //是否显示底部栏
+    })
+    laydate.render({
+        elem:'#end_time',  //绑定input元素
+        type:'datetime',       //date(默认 )、 time 、   year、  month
+        min: '2017-8-11 12:30:00',  //最小可选日期
+        max: '2030-8-18 12:30:00',  //最大可选日期
+        calendar:true,  //显示公历节日
+        theme:'#056dae',  //主题颜色
+        showBottom: true  //是否显示底部栏
     })
 
 </script>

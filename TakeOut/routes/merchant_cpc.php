@@ -53,6 +53,11 @@ Route::namespace('merchant') -> group(function(){
                 Route::any('tuanDelete/{tg_id}','shopController@tuanDelete') -> name('merchant.shop.tuanDelete');//删除团购
                 Route::any('tuanActive/{tg_id}/{active}','shopController@tuanAction') -> name('merchant.shop.tuanActive');//激活团购
 
+                Route::any('addShan/{sid}','shopController@addShan') -> name('merchant.shop.addShan');//添加闪购
+                Route::any('shan/{sg_id}','shopController@shan') -> name('merchant.shop.shan');//显示及更改闪购
+                Route::any('shanDelete/{tg_id}','shopController@shanDelete') -> name('merchant.shop.shanDelete');//删除团购
+                Route::any('shanActive/{tg_id}/{active}','shopController@shanAction') -> name('merchant.shop.shanActive');//激活团购
+
             });
 
             //订单处理

@@ -7,6 +7,8 @@ use App\Guestbook;
 use App\GuestbookReply;
 use App\Menu;
 use App\MenuComment;
+use App\Sg;
+use App\SgMenu;
 use App\Shop;
 use App\MenuCate;
 use App\ShopCate;
@@ -127,12 +129,15 @@ class shopController extends Controller
 
         //店铺的团购
         $tg =  Tg::where('sid',$sid) -> get();
+        //店铺闪购
+        $sg = Sg::where('shan_sid',$sid) -> get();
+
         //菜品的分类
         $menu_cate = MenuCate::where('sid',$sid) -> get();
 
         //查询店铺留言
         $guestBook = Guestbook::where( 'sid',$sid ) ->get();
-        return view('merchant.shop.shopDetail',compact('detail','menu','sid','guestBook','menu_cate','tg') );
+        return view('merchant.shop.shopDetail',compact('detail','menu','sid','guestBook','menu_cate','tg','sg') );
     }
 
     //店铺修改信息
@@ -560,8 +565,8 @@ class shopController extends Controller
                 'end_time.required' => '必须有借宿时间',
 
             ]);
-
-            $tg_id =  request('tg_id');
+//            return \response() -> json(\request()->all());
+            $data['sid'] = \request('sid');
             $data['name'] = trim( request('name') );
             $data['num'] = trim( request('num') );
             $data['ring'] = trim( request('ring') );
@@ -589,19 +594,19 @@ class shopController extends Controller
                     }
                 }else{
                     DB::rollBack();
-                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                    return \response() -> json(['status'=> 'error' , 'msg' => '团购更改失败']);
                 }
 
                 if($n == $m){
                     DB::commit();
-                    return \response() -> json(['status'=> 'ok' , 'msg' => '团购添加成功']);
+                    return \response() -> json(['status'=> 'ok' , 'msg' => '团购更改成功']);
                 }else{
                     DB::rollBack();
-                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                    return \response() -> json(['status'=> 'error' , 'msg' => '团购更改失败']);
                 }
             }else{
                 DB::rollBack();
-                return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                return \response() -> json(['status'=> 'error' , 'msg' => '团购更改失败']);
             }
         }else{
             //显示团购页面
@@ -647,4 +652,168 @@ class shopController extends Controller
         }
     }
 
+    //添加闪购
+    public function addShan($sid){
+        if(\request() -> isMethod('post')){
+            //表单验证
+            $this -> validate(request(),[
+                "name" => 'bail|required|between:2,18',
+                "num" => 'bail|required|numeric|between:2,100',
+                "price" => 'bail|required|numeric|min:0',
+
+//                "detail" => "bail|regex://",
+            ],[
+                'name.required' => '必须有闪购名',
+                'name.between' => '名字在2-18字之间',
+                'num.required' => '必须有闪购数量',
+                'num.numeric' => '必须为数字',
+                'num.between' => '值在2到100之间',
+                'price.required' => '必须有价格',
+                'price.numeric' => '必须为数字',
+                'price.min' => '最小值为0',
+
+            ]);
+//            return \response() -> json(\request()->all());
+            $data['shan_sid'] = \request('sid');
+            $data['shan_name'] = trim( request('name') );
+            $data['shan_num'] = trim( request('num') );
+            $data['shan_price'] = trim( request('price') );
+            $data['shan_detail'] = trim( request('tg_detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('tg_detail') );
+            $menu_id = \request('chk');
+            //获取商品原价
+//            $data['or_price']= Menu::whereIn('id',$menu_id) -> sum('price');
+            DB::beginTransaction();
+            if($id = Sg::insertGetId($data)){
+                $m = count($menu_id);
+                $n = 0;
+                foreach($menu_id as $v){
+                    $data1['uid'] = $v;
+                    $data1['shan_id'] = $id;
+                    if( SgMenu::insert($data1)){
+                        $n++;
+                    }
+                }
+                if($n == $m){
+                    DB::commit();
+                    return \response() -> json(['status'=> 'ok' , 'msg' => '团购添加成功']);
+                }else{
+                    DB::rollBack();
+                    return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+                }
+            }else{
+                DB::rollBack();
+                return \response() -> json(['status'=> 'error' , 'msg' => '团购添加失败']);
+            }
+
+        }else{
+            $menu = Menu::where('sid',$sid )->get();
+            return view('merchant.shan.addShan',compact('sid','menu') );
+        }
+    }
+
+    //显示加修改闪购页面
+    public function shan($sg_id){
+        if( \request() -> isMethod('post') ){
+            //表单验证
+            $this -> validate(request(),[
+                "name" => 'bail|required|between:2,18',
+                "num" => 'bail|required|numeric|between:2,100',
+                "price" => 'bail|required|numeric|min:0',
+
+//                "detail" => "bail|regex://",
+            ],[
+                'name.required' => '必须有闪购名',
+                'name.between' => '名字在2-18字之间',
+                'num.required' => '必须有闪购数量',
+                'num.numeric' => '必须为数字',
+                'num.between' => '值在2到100之间',
+                'price.required' => '必须有价格',
+                'price.numeric' => '必须为数字',
+                'price.min' => '最小值为0',
+
+            ]);
+//            return \response() -> json(\request()->all());
+            $data['shan_sid'] = \request('sid');
+            $data['shan_name'] = trim( request('name') );
+            $data['shan_num'] = trim( request('num') );
+            $data['shan_price'] = trim( request('price') );
+            $data['shan_detail'] = trim( request('tg_detail') ) =='请填写团购简介' ? "这个团购的简介不见了":trim( request('tg_detail') );
+            $menu_id = \request('chk');
+            //获取商品原价
+//            $data['or_price']= Menu::whereIn('id',$menu_id) -> sum('price');
+            DB::beginTransaction();
+            //修改闪购信息
+            if( Sg::where('id',$sg_id) -> update($data) ){
+                $m = count($menu_id);
+                $n = 0;
+                //删除闪购商品
+                if(SgMenu::where('sg_id',$sg_id) -> delete() ){
+                    //添加团购商品
+                    foreach($menu_id as $v){
+                        $data1['uid'] = $v;
+                        $data1['sg_id'] = $sg_id;
+                        if( SgMenu::insert($data1)){
+                            $n++;
+                        }
+                    }
+                }else{
+                    DB::rollBack();
+                    return \response() -> json(['status'=> 'error' , 'msg' => '闪购更改失败']);
+                }
+
+                if($n == $m){
+                    DB::commit();
+                    return \response() -> json(['status'=> 'ok' , 'msg' => '闪购更改成功']);
+                }else{
+                    DB::rollBack();
+                    return \response() -> json(['status'=> 'error' , 'msg' => '闪购更改失败']);
+                }
+            }else{
+                DB::rollBack();
+                return \response() -> json(['status'=> 'error' , 'msg' => '闪购更改失败']);
+            }
+        }else{
+            //显示团购页面
+            $shan = Sg::find($sg_id);
+            $sg_menu_id = SgMenu::where('shan_id',$sg_id) ->get();
+            foreach ($sg_menu_id as $k=> $v){
+                $menu_id[$k] =  $v->uid;
+            }
+//        dd($menu_id);
+            $menu = Menu::where('sid',session('sid')) ->get();
+            $sg_menu = Menu::find($menu_id);
+            return view('merchant.shan.shan',compact('shan','sg_menu','menu','menu_id'));
+        }
+
+    }
+
+    //删除团购
+    public function shanDelete($sg_id){
+        DB::beginTransaction();  //开启事物处理
+        //删除团购
+        if( Tg::destroy( $tg_id ) ){
+            //删除团购商品
+            if(TgMenu::where('tg_id',$tg_id) -> delete() ){
+                DB::commit();
+                return response()->json(['status'=> 'ok', 'msg'=> '删除成功']);
+            }else{
+                DB::rollback();
+                return response()-> json(['status'=>'error','msg'=> '删除失败']);
+            }
+        }else{
+            DB::rollback();
+            return response()-> json(['status'=>'error','msg'=> '删除失败']);
+        }
+    }
+
+    //激活团购
+    public function shanAction($sg_id,$active){
+        $active = $active == 1 ? 2 : 1;
+        $msg = $active ==1 ? '激活' : '禁用';
+        if(Tg::where('id',$tg_id) -> update(['active'=> $active])) {
+            return response()-> json(['status'=>'ok','active'=>$active,'msg'=> $msg.'成功']);
+        }else{
+            return response()-> json(['status'=>'error','active'=>$active,'msg'=> $msg.'失败']);
+        }
+    }
 }

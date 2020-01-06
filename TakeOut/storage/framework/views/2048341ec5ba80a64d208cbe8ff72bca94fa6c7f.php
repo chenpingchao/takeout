@@ -321,7 +321,39 @@ avatar.uploadComplate = function( data ){
 
 			</div> <!-- end #Member -->
 			<div class="clear"></div>
+
 			
+			<div id="Category" style="margin-top:40px;">
+
+				<dl class="c_section c_member">
+					<dt>
+						<h2><em></em>限时闪购 </h2>
+						<a  class="add_shan">+</a>
+					</dt>
+
+					<dd style="padding-top:2px;">
+						<?php $__empty_1 = true; $__currentLoopData = $sg; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
+							<?php if($v -> shan_active ==1 ): ?>
+								<a title="闪购礼包" class="shan" href="<?php echo e(route('merchant.shop.shan',['sg_id'=>$v->id])); ?>" >
+									<?php echo e($v-> shan_name); ?>
+
+								</a>
+							<?php else: ?>
+								<a title="闪购礼包" class="shan mc_unactive" href="<?php echo e(route('merchant.shop.shan',['sg_id'=>$v->id])); ?>" >
+									<?php echo e($v-> shan_name); ?>
+
+								</a>
+							<?php endif; ?>
+						<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
+							<div class="member_info">
+								<div class="m_intro" style="text-align: center;font-size: 17px;">你可以创建一个限时闪购的礼包来吸引用户</div>
+							</div>
+						<?php endif; ?>
+					</dd>
+
+				</dl>
+
+			</div> <!-- end #Member -->
 			<div class="clear"></div>
 			
 			<div id="GuestBook" style="margin-top:40px;">
@@ -335,7 +367,7 @@ avatar.uploadComplate = function( data ){
 							<!-- 显示留言 -->
 							<?php $__empty_1 = true; $__currentLoopData = $guestBook; $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $v): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); $__empty_1 = false; ?>
 								<div class="member_info1" style="">
-									<a title="回复留言" class="c_edit member_edit" href="javascript:guestbook('<?php echo e(route('merchant.orders.guestBook',['gid'=>$v->id])); ?>');" ></a>
+									<a title="回复留言" class="c_edit member_edit" href="javascript:guestbook('<?php echo e(route('merchant.orders.guestBook',['gid'=> $v->id])); ?>');" ></a>
 									<div class="m_intro" style="text-align: center;font-size: 17px;"><?php echo e(mb_substr($v->content,0,15)); ?></div>
 								</div>
 							<?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); if ($__empty_1): ?>
@@ -457,6 +489,7 @@ avatar.uploadComplate = function( data ){
 		});
 		return false;
 	})
+
 	//修改团购信息弹层
 	$('.tuan').click(function(){
 		console.log($(this).attr('href'));
@@ -469,6 +502,28 @@ avatar.uploadComplate = function( data ){
 		return false;
 	});
 
+
+    //添加闪购礼包弹层
+    $('.add_shan').click(function(){
+        layer.open({
+            type:2,
+            title:'添加分类',
+            area:['600px','600px'],
+            content:['<?php echo e(route('merchant.shop.addShan',['sid'=> $detail -> id])); ?>']
+        });
+        return false;
+    })
+    //修改闪购信息弹层
+    $('.shan').click(function(){
+        console.log($(this).attr('href'));
+        layer.open({
+            type:2,
+            title:'修改礼包',
+            area:['600px','600px'],
+            content:[$(this).attr('href')]
+        })
+        return false;
+    });
 
 </script>
 

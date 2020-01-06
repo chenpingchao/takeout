@@ -41,10 +41,10 @@
 <body>
     <div id="show" class="add_box add_box_1">
         <dl class="tuan_detail">
-            <dd>团购名称：{{$tuan -> name }}</dd>
-            <dd>团购人数：{{$tuan -> num }}</dd>
+            <dd>团购名称：{{$tuan -> tg_name }}</dd>
+            <dd>团购人数：{{$tuan -> tg_num }}</dd>
             <dd>礼包数量：{{$tuan -> ring }}</dd>
-            <dd>团购价格：{{$tuan -> price }}</dd>
+            <dd>团购价格：{{$tuan -> tg_price }}</dd>
             <dd>开始时间：{{date('Y-m-d H:i:s',$tuan -> start_time ) }}</dd>
             <dd>结束时间：{{date('Y-m-d H:i:s',$tuan -> end_time ) }}</dd>
             <dd>团购简介：{{$tuan -> detail }}</dd>
@@ -89,12 +89,12 @@
         <dl>
             <dd >
                 <label for="tg_name">团购名称：</label>
-                <input type="text" name="name" class="add-tuan-input" id="tg_name" placeholder="请输入团购大礼包的名称" value="{{$tuan -> name}}">
+                <input type="text" name="name" class="add-tuan-input" id="tg_name" placeholder="请输入团购大礼包的名称" value="{{$tuan -> tg_name}}">
                 <div class="image name"></div>
             </dd>
             <dd >
                 <label for="num">成团人数：</label>
-                <input type="text" name="num" class="add-tuan-input" id="num" placeholder="请合理填写人数，以免造成损失" value="{{$tuan -> num}}">
+                <input type="text" name="num" class="add-tuan-input" id="num" placeholder="请合理填写人数，以免造成损失" value="{{$tuan -> tg_num}}">
                 <div class="image num"></div>
             </dd>
             <dd>
@@ -104,7 +104,7 @@
             </dd>
             <dd>
                 <label for="price">团购价格：</label>
-                <input type="text" name="price"  class="add-tuan-input" id="price" placeholder="请填写团购礼包的价格"  value="{{$tuan -> price}}">
+                <input type="text" name="price"  class="add-tuan-input" id="price" placeholder="请填写团购礼包的价格"  value="{{$tuan -> tg_price}}">
                 <div class="image price"></div>
             </dd>
             <dd>
@@ -225,26 +225,6 @@
         validClass: "ok",
     });
 
-    //绑定时间插件
-    laydate.render({
-        elem:'#start_time',  //绑定input元素
-        type:'datetime',       //date(默认 )、 time 、   year、  month
-         //默认值
-        min: '2017-8-11 12:30:00',  //最小可选日期
-        max: '2030-8-18 12:30:00',  //最大可选日期
-        calendar:true,  //显示公历节日
-        theme:'#056dae',  //主题颜色
-        showBottom: true //是否显示底部栏
-    })
-    laydate.render({
-        elem:'#end_time',  //绑定input元素
-        type:'datetime',       //date(默认 )、 time 、   year、  month
-        min: '2017-8-11 12:30:00',  //最小可选日期
-        max: '2030-8-18 12:30:00',  //最大可选日期
-        calendar:true,  //显示公历节日
-        theme:'#056dae',  //主题颜色
-        showBottom: true  //是否显示底部栏
-    })
 
 
     //修改
@@ -297,17 +277,22 @@
 
     //删除
     $('#delete').click(function(){
-        $.get('{{route('merchant.shop.tuanDelete',['tg_id'=> $tuan->id])}}','',function(data){
-            if(data.status == 'ok'){
-                // alert('a');
-                parent.location.reload();
-                parent.layer.closeAll();
-            }else{
-                layer.msg(data.msg,{icon:5})
+        layer.confirm('确认删除？',{ btn:['确认','取消'] , icon:3, title:'删除提示' },
+            function(){
+                $.get('{{route('merchant.shop.tuanDelete',['tg_id'=> $tuan->id])}}','',function(data){
+                    if(data.status == 'ok'){
+                        // alert('a');
+                        parent.location.reload();
+                        parent.layer.closeAll();
+                    }else{
+                        layer.msg(data.msg,{icon:5})
+                    }
+                })
             }
-        })
+        )
+
     });
-    //分类的激活和禁用
+    //团购的激活和禁用
     $('#active').click(function(){
         me = $(this);
         $.get(me.attr('href'),'',function(data){
@@ -335,6 +320,27 @@
         $('#show').attr('style','display:none')
         $('form').show();
     });
+
+    //绑定时间插件
+    laydate.render({
+        elem:'#start_time',  //绑定input元素
+        type:'datetime',       //date(默认 )、 time 、   year、  month
+        //默认值
+        min: '2017-8-11 12:30:00',  //最小可选日期
+        max: '2030-8-18 12:30:00',  //最大可选日期
+        calendar:true,  //显示公历节日
+        theme:'#056dae',  //主题颜色
+        showBottom: true //是否显示底部栏
+    })
+    laydate.render({
+        elem:'#end_time',  //绑定input元素
+        type:'datetime',       //date(默认 )、 time 、   year、  month
+        min: '2017-8-11 12:30:00',  //最小可选日期
+        max: '2030-8-18 12:30:00',  //最大可选日期
+        calendar:true,  //显示公历节日
+        theme:'#056dae',  //主题颜色
+        showBottom: true  //是否显示底部栏
+    })
 
 </script>
 </html>
