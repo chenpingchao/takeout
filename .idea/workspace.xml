@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a81c2ed-085f-4fcd-8a93-1859263cf4cb" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/TakeOut/app/Sg.php" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/TakeOut/app/SgMenu.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -21,6 +22,10 @@
       <change beforePath="$PROJECT_DIR$/TakeOut/storage/framework/views/eaf980d3acad761966559a1c02a1af57613a4eec.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/storage/framework/views/eaf980d3acad761966559a1c02a1af57613a4eec.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TakeOut/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/storage/logs/laravel.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TakeOut/任务分配/已建库数据字典.xls" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/任务分配/已建库数据字典.xls" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php" afterDir="false" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +44,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/shan/shan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="255">
               <caret line="72" column="76" lean-forward="true" selection-start-line="72" selection-start-column="76" selection-end-line="72" selection-end-column="76" />
               <folding>
@@ -50,6 +56,10 @@
                 <element signature="n#style#0;n#img#0;n#td#2;n#tr#1;n#table#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#dd#0;n#dl#0;n#div#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="4031">
+              <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
             </state>
           </provider>
         </entry>
@@ -57,6 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/tuan/tuan.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="174">
               <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
             </state>
@@ -71,6 +82,10 @@
               <folding>
                 <element signature="e#4509#6034#0#HTML" />
               </folding>
+=======
+            <state relative-caret-position="2523">
+              <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
             </state>
           </provider>
         </entry>
@@ -96,7 +111,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/shop/menuCate.blade.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="600">
+=======
+            <state relative-caret-position="1769">
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
               <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
             </state>
           </provider>
@@ -105,8 +124,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="484">
               <caret line="58" column="113" selection-start-line="58" selection-start-column="113" selection-end-line="58" selection-end-column="113" />
+=======
+            <state relative-caret-position="1508">
+              <caret line="52" column="119" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
             </state>
           </provider>
         </entry>
@@ -128,6 +152,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="2869">
               <caret line="784" column="54" selection-start-line="784" selection-start-column="54" selection-end-line="784" selection-end-column="58" />
               <folding>
@@ -139,6 +164,14 @@
                 <element signature="e#25093#27396#0#PHP" />
                 <element signature="e#30484#31076#0#PHP" />
                 <element signature="e#31093#31505#0#PHP" />
+=======
+            <state relative-caret-position="559">
+              <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
+              <folding>
+                <element signature="e#49#66#0#PHP" expanded="true" />
+                <element signature="e#17579#20433#0#PHP" />
+                <element signature="e#20455#23929#0#PHP" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
               </folding>
             </state>
           </provider>
@@ -291,9 +324,16 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="113" />
     <option name="width" value="1602" />
     <option name="height" value="831" />
+=======
+    <option name="x" value="156" />
+    <option name="y" value="13" />
+    <option name="width" value="1308" />
+    <option name="height" value="841" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -496,15 +536,20 @@
       <workItem from="1577753236285" duration="7531000" />
       <workItem from="1577926496057" duration="551000" />
       <workItem from="1577930620543" duration="21921000" />
+<<<<<<< HEAD
       <workItem from="1578016134469" duration="1646000" />
       <workItem from="1578023139111" duration="8129000" />
       <workItem from="1578271413174" duration="182000" />
       <workItem from="1578272229394" duration="3605000" />
       <workItem from="1578277046811" duration="8293000" />
+=======
+      <workItem from="1578016134469" duration="1020000" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="51858000" />
   </component>
   <component name="ToolWindowManager">
@@ -512,6 +557,15 @@
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14137484" />
+=======
+    <option name="totallyTimeSpent" value="31023000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-14" y="4" width="1308" height="872" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16586539" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -619,13 +673,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/public/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="4408">
           <caret line="152" column="23" selection-start-line="152" selection-start-column="23" selection-end-line="152" selection-end-column="23" />
+=======
+        <state relative-caret-position="4031">
+          <caret line="139" column="17" selection-start-line="139" selection-start-column="17" selection-end-line="139" selection-end-column="17" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/app/Tg.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="-154">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
@@ -669,11 +729,23 @@
           <folding>
             <element signature="e#4509#6034#0#HTML" />
           </folding>
+=======
+        <state relative-caret-position="2523">
+          <caret line="87" column="24" selection-start-line="87" selection-start-column="24" selection-end-line="87" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/resources/views/merchant/shop/menuCate.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TakeOut/routes/merchant_cpc.php">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="600">
           <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
         </state>
@@ -683,11 +755,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="58" column="113" selection-start-line="58" selection-start-column="113" selection-end-line="58" selection-end-column="113" />
+=======
+        <state relative-caret-position="1508">
+          <caret line="52" column="119" selection-start-line="52" selection-start-column="119" selection-end-line="52" selection-end-column="119" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TakeOut/app/Http/Controllers/merchant/shopController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="2869">
           <caret line="784" column="54" selection-start-line="784" selection-start-column="54" selection-end-line="784" selection-end-column="58" />
           <folding>
@@ -734,6 +811,14 @@
             <element signature="e#13120#13144#0#HTML" expanded="true" />
             <element signature="e#13277#13301#0#HTML" expanded="true" />
             <element signature="e#13746#13789#0#HTML" expanded="true" />
+=======
+        <state relative-caret-position="559">
+          <caret line="640" lean-forward="true" selection-start-line="640" selection-end-line="640" />
+          <folding>
+            <element signature="e#49#66#0#PHP" expanded="true" />
+            <element signature="e#17579#20433#0#PHP" />
+            <element signature="e#20455#23929#0#PHP" />
+>>>>>>> 397c11fdbf3e385564002c67f14acfb6e9e5b788
           </folding>
         </state>
       </provider>
