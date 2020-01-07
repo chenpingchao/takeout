@@ -14,6 +14,9 @@ Route::get('think', function () {
 });
 
 Route::get('hello/:name', 'index/hello');
+Route::resource('doctor','doctor/Doctor');
+Route::resource('register','chen/Register');
+
 
 return [
 

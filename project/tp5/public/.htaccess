@@ -4,5 +4,9 @@
 
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteRule ^(.*)$ index.php/$1 [QSA,PT,L]
+<<<<<<< HEAD
+  RewriteRule ^(.*)$ index.php?/$1 [QSA,PT,L]
+=======
+  RewriteRule ^(.*)$ index.php?s=$1 [QSA,PT,L]
+>>>>>>> d3d46b9188e91ff1c5f0de733c6e54a967d6b67f
 </IfModule>
