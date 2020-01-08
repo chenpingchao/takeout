@@ -147,8 +147,8 @@
                     //判断是否登录成功
                     if (data.status === 'ok') {
                         layer.msg(data.msg, { icon: 1, time: 1000, shade: [0.6] }, function(){
-
-                            parent.location = data.url;
+                            layer.closeAll();//父 关弹
+                            top.location.reload();
                         })
                     } else {
                         layer.tips(data.msg, '#embed-captcha', {
