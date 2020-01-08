@@ -279,7 +279,8 @@
     </li>
     <li><a href="#" class="dropdown-toggle"><i class="icon-facebook-sign"></i><span class="menu-text"> 即时活动 </span><b class="arrow icon-angle-down"></b></a>
         <ul class="submenu">
-            <li class="home"><a href="javascript:void(0)" name="Systems.html" title="系统设置" class="iframeurl"><i class="icon-double-angle-right"></i>闪购</a></li>
+            {{--Q-buy--}}
+            <li class="home"><a href="{{route('bg.flash.FlashBuy')}}" target="iframe" name="Systems.html" title="闪购" class="iframeurl"><i class="icon-double-angle-right"></i>闪购</a></li>
 
             <li class="home"><a href="javascript:void(0)" target="iframe" name="System_section.html" title="系统栏目管理" class="iframeurl"><i class="icon-double-angle-right"></i>团购</a></li>
 

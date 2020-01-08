@@ -52,7 +52,7 @@ class indexController extends Controller
             ->paginate(2);
 //        dd($Gcomment);
         //查询主页菜品信息（按销量）
-        $menu = Menu::where('active',1) ->orderBy('salde_num','desc') -> offset(0) ->paginate(3);
+        $menu = Menu::where('active',1) ->orderBy('salde_num','desc') -> offset(0) ->paginate(9);
         //查询主页店铺信息（评分）
         $shop = Shop::where('active',1) -> orderBy('grade','desc') -> paginate(10);
 

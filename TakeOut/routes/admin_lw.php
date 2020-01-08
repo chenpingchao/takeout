@@ -60,6 +60,9 @@ Route::namespace("Admin") -> group(function(){
                Route::any('ad_Feedback','MessageController@ad_Feedback')->name('bg.mess.Feedback'); //意见反馈
                Route::any('ad_FeedActive/{id}/{active}','MessageController@ad_FeedActive')->name('bg.mess.FeedActive');//意见状态
            });
+           Route::prefix('Flash')->group(function (){//销售
+               Route::any('ad_FlashBuy','SalesController@ad_FlashBuy')->name('bg.flash.FlashBuy');//闪购
+           });
 //           });
        });
    });

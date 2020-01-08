@@ -39,6 +39,8 @@ Route::namespace("Home") -> group(function(){
         //检验极验验证码
         Route::any('checkGt','loginController@checkGt')->name('home.checkGt');
 
+        //发现---闪购
+        Route::any('flash','F_SalesController@flash')->name('flash.sales');
 
         //中间件mid不存在则跳转登录页面
         Route::middleware('MemLogin')->group(function()
