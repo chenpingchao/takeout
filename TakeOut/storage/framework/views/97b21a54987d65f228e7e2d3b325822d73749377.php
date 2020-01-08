@@ -66,7 +66,7 @@
  <article>
   <div class="shopinfor">
    <div class="title">
-       
+
     <img src="<?php echo e($shop_msg -> logo); ?>" class="shop-ico">
     <span><?php echo e($shop_msg -> shop_name); ?></span>
     <span>
