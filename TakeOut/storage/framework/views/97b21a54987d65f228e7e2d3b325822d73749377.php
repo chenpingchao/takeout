@@ -2,8 +2,6 @@
 <head>
   <meta charset="utf-8" />
   <title>店铺详情</title>
-  <meta name="keywords" content="DeathGhost,DeathGhost.cn,web前端设,移动WebApp开发" />
-  <meta name="description" content="DeathGhost.cn::H5 WEB前端设计开发!" />
   <meta name="author" content="DeathGhost"/>
     <link href="/home/style/style.css" rel="stylesheet" type="text/css" />
     <link href="/css/public.css" rel="stylesheet" type="text/css" />
@@ -68,6 +66,7 @@
  <article>
   <div class="shopinfor">
    <div class="title">
+       
     <img src="<?php echo e($shop_msg -> logo); ?>" class="shop-ico">
     <span><?php echo e($shop_msg -> shop_name); ?></span>
     <span>
@@ -148,7 +147,7 @@
                 <?php endif; ?>
             </ul>
             <ul class="am-pagination am-pagination-right listpage" style="float:right;margin-right: 10px">
-               
+
             </ul>
     </div>
     <!--case1-->

@@ -67,6 +67,7 @@
  <article>
   <div class="shopinfor">
    <div class="title">
+
     <img src="{{$shop_msg -> logo}}" class="shop-ico">
     <span>{{ $shop_msg -> shop_name }}</span>
     <span>
